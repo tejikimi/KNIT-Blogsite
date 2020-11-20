@@ -1,0 +1,382 @@
+@media only screen and (max-width: 767px) {
+  .shape {
+    display: none;
+  }
+  .marketing-nav-style .other-option {
+    display: none;
+  }
+  .marketing-banner-area {
+    height: 100%;
+    padding-top: 150px;
+    padding-bottom: 95px;
+    position: relative;
+  }
+  .marketing-banner-area::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #1089d4;
+    opacity: 0.9;
+  }
+  .marketing-banner-area .banner-text {
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    margin-top: 0;
+  }
+  .marketing-banner-area .banner-text h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  .marketing-since-area {
+    padding-bottom: 50px;
+  }
+  .marketing-since-area .since-img {
+    position: relative;
+    margin-bottom: 30px;
+  }
+  .marketing-since-area .since-img .since-shape {
+    display: none;
+  }
+  .marketing-since-area .since-title {
+    margin-left: 0;
+    margin-bottom: -6px;
+  }
+  .marketing-since-area .since-title span {
+    font-size: 14px;
+  }
+  .marketing-since-area .since-title h2 {
+    font-size: 25px;
+  }
+  .marketing-since-area .since-title .default-btn {
+    margin-top: 30px;
+  }
+  .marketing-service-area .single-service {
+    padding: 20px;
+  }
+  .marketing-how-we-work-area .single-work {
+    padding: 20px;
+  }
+  .marketing-recent-case-area .shorting-menu button {
+    padding: 5px 12px;
+    margin-bottom: 10px;
+  }
+  .marketing-recent-case-area .single-case .case-content {
+    padding: 20px;
+  }
+  .marketing-recent-case-area .single-case .case-content span {
+    top: 28px;
+    font-size: 30px;
+    left: 20px;
+  }
+  .marketing-recent-case-area .single-case .case-content .case-title {
+    padding-left: 55px;
+  }
+  .marketing-recent-case-area .single-case .case-content h3 {
+    font-size: 16px;
+  }
+  .marketing-recent-case-area .single-case .case-content .case-read {
+    top: 30px;
+    right: 20px;
+  }
+  .marketing-customer-area .customer-title {
+    margin-bottom: 20px;
+  }
+  .marketing-customer-area .customer-title span {
+    font-size: 14px;
+  }
+  .marketing-customer-area .customer-title h2 {
+    font-size: 25px;
+  }
+  .marketing-customer-area .customer-say {
+    padding: 20px;
+  }
+  .marketing-blog-area .single-blog-post .post-content {
+    padding: 20px;
+  }
+  .marketing-footer-top-area .single-widget h3 {
+    position: relative;
+  }
+  .marketing-footer-top-area .single-widget h3::before {
+    content: "";
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #4b5c92;
+  }
+  .marketing-footer-top-area .single-widget h3::after {
+    content: "";
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 50px;
+    height: 1px;
+    background-color: #ffffff;
+  }
+  .marketing-footer-top-area .newsletter-form button {
+    position: unset;
+    margin: 20px auto 0;
+    display: table;
+  }
+  .marketing-footer-top-area .subscribe-text {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .marketing-footer-bottom-area {
+    text-align: center;
+  }
+  .marketing-footer-bottom-area .conditions {
+    float: unset;
+  }
+  .marketing-footer-bottom-area .conditions li:first-child {
+    padding-left: 0;
+  }
+  .marketing-our-team-area .section-title {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .marketing-recent-case-area .single-case .case-content {
+    padding: 10px;
+  }
+  .marketing-recent-case-area .single-case .case-content .case-title {
+    padding-left: 40px;
+  }
+  .marketing-recent-case-area .single-case .case-content span {
+    top: 17px;
+    font-size: 30px;
+    left: 10px;
+  }
+  .marketing-recent-case-area .single-case .case-content .case-read {
+    top: 20px;
+    right: 10px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .shape {
+    display: none;
+  }
+  .marketing-nav-style .other-option {
+    display: none;
+  }
+  .marketing-banner-area {
+    height: 100%;
+    padding-top: 150px;
+    padding-bottom: 95px;
+    position: relative;
+  }
+  .marketing-banner-area::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #1089d4;
+    opacity: 0.9;
+  }
+  .marketing-banner-area .banner-text {
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    margin-top: 0;
+  }
+  .marketing-banner-area .banner-text h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  .marketing-banner-area .banner-text p {
+    margin: 0 auto 30px;
+  }
+  .marketing-since-area {
+    padding-bottom: 70px;
+  }
+  .marketing-since-area .since-img {
+    position: relative;
+    margin-bottom: 30px;
+  }
+  .marketing-since-area .since-img img {
+    width: 100%;
+  }
+  .marketing-since-area .since-img .since-shape {
+    display: none;
+  }
+  .marketing-since-area .since-title {
+    margin-left: 0;
+    margin-bottom: -6px;
+  }
+  .marketing-since-area .since-title span {
+    font-size: 14px;
+  }
+  .marketing-since-area .since-title h2 {
+    font-size: 25px;
+  }
+  .marketing-since-area .since-title .default-btn {
+    margin-top: 30px;
+  }
+  .marketing-service-area .single-service {
+    padding: 20px;
+  }
+  .marketing-how-we-work-area .single-work {
+    padding: 20px;
+  }
+  .marketing-recent-case-area .shorting-menu button {
+    padding: 5px 12px;
+    margin-bottom: 10px;
+  }
+  .marketing-recent-case-area .single-case .case-content {
+    padding: 20px;
+  }
+  .marketing-recent-case-area .single-case .case-content span {
+    top: 28px;
+    font-size: 30px;
+    left: 20px;
+  }
+  .marketing-recent-case-area .single-case .case-content .case-title {
+    padding-left: 45px;
+  }
+  .marketing-recent-case-area .single-case .case-content h3 {
+    font-size: 16px;
+  }
+  .marketing-recent-case-area .single-case .case-content .case-read {
+    top: 30px;
+    right: 20px;
+  }
+  .marketing-customer-area .customer-title {
+    margin-bottom: 20px;
+  }
+  .marketing-customer-area .customer-title span {
+    font-size: 14px;
+  }
+  .marketing-customer-area .customer-title h2 {
+    font-size: 25px;
+  }
+  .marketing-customer-area .customer-img img {
+    width: 100%;
+  }
+  .marketing-blog-area .single-blog-post .post-content {
+    padding: 20px;
+  }
+  .marketing-footer-top-area .single-widget h3 {
+    position: relative;
+  }
+  .marketing-footer-top-area .single-widget h3::before {
+    content: "";
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #22405f;
+  }
+  .marketing-footer-top-area .single-widget h3::after {
+    content: "";
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 50px;
+    height: 1px;
+    background-color: #ffffff;
+  }
+  .marketing-footer-top-area .subscribe-text {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .marketing-footer-bottom-area {
+    text-align: center;
+  }
+  .marketing-footer-bottom-area .conditions {
+    float: unset;
+  }
+  .marketing-footer-bottom-area .conditions li:first-child {
+    padding-left: 0;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .marketing-nav-style .other-option {
+    margin-left: 75px;
+  }
+  .marketing-banner-area {
+    height: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    position: relative;
+  }
+  .marketing-banner-area::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #1089d4;
+    opacity: 0.9;
+  }
+  .marketing-banner-area .banner-text {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    margin-top: 75px;
+  }
+  .marketing-banner-area .banner-text h1 {
+    font-size: 40px;
+  }
+  .marketing-banner-area .banner-text p {
+    margin: 0 auto 30px;
+  }
+  .marketing-since-area {
+    padding-bottom: 100px;
+  }
+  .marketing-since-area .since-title {
+    margin-bottom: -6px;
+  }
+  .marketing-since-area .since-title h2 {
+    font-size: 30px;
+  }
+  .marketing-service-area .single-service {
+    padding: 10px;
+  }
+  .marketing-service-area .single-service h3 {
+    font-size: 18px;
+  }
+  .marketing-how-we-work-area .single-work {
+    padding: 20px;
+  }
+  .marketing-recent-case-area .single-case .case-content {
+    padding: 20px;
+  }
+  .marketing-recent-case-area .single-case .case-content h3 a {
+    font-size: 18px;
+  }
+  .marketing-recent-case-area .single-case .case-content span {
+    top: 30px;
+    left: 20px;
+    font-size: 30px;
+  }
+  .marketing-recent-case-area .single-case .case-content .case-read {
+    top: 32px;
+    right: 20px;
+  }
+  .marketing-recent-case-area .single-case .case-content .case-title {
+    padding-left: 45px;
+  }
+  .marketing-customer-area .customer-img {
+    margin-left: 30px;
+  }
+  .corporate-counter-area .single-counter h2 {
+    font-size: 40px;
+  }
+  .corporate-counter-area .single-counter p {
+    font-size: 16px;
+  }
+}
+/*# sourceMappingURL=marketing-responsive.css.map */

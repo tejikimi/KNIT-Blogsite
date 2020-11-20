@@ -1,0 +1,278 @@
+@media only screen and (max-width: 767px) {
+  .seo-nav-style .other-option .default-btn.seo-btn {
+    display: none;
+  }
+  .seo-banner-area {
+    height: 100%;
+    padding-top: 100px;
+    padding-bottom: 50px;
+  }
+  .seo-banner-area .banner-text {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .seo-banner-area .banner-text h1 {
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+  .seo-banner-area .banner-text p {
+    margin-bottom: 35px;
+  }
+  .seo-banner-area .banner-text .default-btn {
+    padding: 10px 20px;
+    margin-right: 8px;
+  }
+  .seo-box-area .single-box {
+    padding: 20px;
+  }
+  .seo-about-area .about-img {
+    margin-bottom: 30px;
+  }
+  .seo-about-area .about-wrap {
+    margin-left: 0;
+  }
+  .seo-about-area .about-wrap .about-text h2 {
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+  .seo-about-area .about-wrap .about-text p {
+    margin-bottom: 15px;
+  }
+  .seo-about-area .single-counter h2 {
+    font-size: 35px;
+  }
+  .seo-about-area .single-counter p {
+    font-size: 14px;
+  }
+  .seo-about-area .single-counter.mb {
+    margin-bottom: 20px;
+  }
+  .seo-service-area .single-service .service-img {
+    padding: 20px;
+  }
+  .seo-service-area .single-service .service-text {
+    padding: 20px;
+  }
+  .seo-work-area {
+    padding-bottom: 35px !important;
+  }
+  .seo-work-area .section-title {
+    margin-bottom: 20px;
+  }
+  .seo-increase-area .col-lg-6:nth-child(5) .product-services-list {
+    margin-bottom: 15px;
+  }
+  .seo-increase-area .great-product-img {
+    margin-top: 30px;
+  }
+  .seo-review-area .section-title {
+    margin-bottom: 25px;
+  }
+  .seo-review-area .single-review {
+    padding: 20px;
+  }
+  .seo-analysis-area .analysis-text h2 {
+    font-size: 25px;
+  }
+  .seo-analysis-area .analysis-img {
+    margin-top: 30px;
+  }
+  .seo-footer-top-area .single-widget h3 {
+    position: relative;
+  }
+  .seo-footer-top-area .single-widget h3::before {
+    content: "";
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #4b5c92;
+  }
+  .seo-footer-top-area .single-widget h3::after {
+    content: "";
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 50px;
+    height: 1px;
+    background-color: #ffffff;
+  }
+  .seo-footer-bottom-area {
+    text-align: center;
+  }
+  .seo-footer-bottom-area .conditions {
+    float: unset;
+  }
+  .seo-footer-bottom-area .conditions li:first-child {
+    padding-left: 0;
+  }
+  .seo-blog-area .single-blog-post .post-content {
+    padding: 15px;
+  }
+  .seo-blog-area .single-blog-post {
+    text-align: center;
+  }
+  .seo-increase-area {
+    margin-top: 0;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .seo-increase-area .col-lg-6:nth-child(5) .product-services-list {
+    margin-bottom: 0;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .seo-nav-style .other-option .default-btn.seo-btn {
+    display: none;
+  }
+  .seo-banner-area {
+    height: 100%;
+    padding-top: 120px;
+    padding-bottom: 70px;
+  }
+  .seo-banner-area .banner-text {
+    margin: 0 auto 30px;
+    text-align: center;
+  }
+  .seo-banner-area .banner-text h1 {
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+  .seo-banner-area .banner-text p {
+    margin-bottom: 35px;
+  }
+  .seo-banner-area .banner-text .default-btn {
+    padding: 10px 20px;
+    margin-right: 8px;
+  }
+  .seo-box-area .single-box {
+    padding: 20px;
+  }
+  .seo-about-area .about-img {
+    margin-bottom: 30px;
+  }
+  .seo-about-area .about-wrap {
+    margin-left: 0;
+  }
+  .seo-about-area .about-wrap .about-text {
+    text-align: center;
+  }
+  .seo-about-area .about-wrap .about-text h2 {
+    font-size: 25px;
+  }
+  .seo-about-area .single-counter {
+    text-align: center;
+  }
+  .seo-about-area .single-counter h2 {
+    font-size: 35px;
+  }
+  .seo-about-area .single-counter p {
+    font-size: 14px;
+  }
+  .seo-service-area .single-service .service-img {
+    padding: 20px;
+  }
+  .seo-service-area .single-service .service-text {
+    padding: 20px;
+  }
+  .seo-work-area {
+    padding-bottom: 55px !important;
+  }
+  .seo-work-area .section-title {
+    margin-bottom: 20px;
+  }
+  .seo-increase-area .great-product-img {
+    margin-top: 30px;
+  }
+  .seo-review-area .section-title {
+    margin-bottom: 25px;
+  }
+  .seo-review-area .single-review {
+    padding: 20px;
+  }
+  .seo-analysis-area .analysis-text h2 {
+    font-size: 25px;
+  }
+  .seo-analysis-area .analysis-img {
+    margin-top: 30px;
+  }
+  .seo-footer-top-area .single-widget h3 {
+    position: relative;
+  }
+  .seo-footer-top-area .single-widget h3::before {
+    content: "";
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #4b5c92;
+  }
+  .seo-footer-top-area .single-widget h3::after {
+    content: "";
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 50px;
+    height: 1px;
+    background-color: #ffffff;
+  }
+  .seo-footer-bottom-area {
+    text-align: center;
+  }
+  .seo-footer-bottom-area .conditions {
+    float: unset;
+  }
+  .seo-footer-bottom-area .conditions li:first-child {
+    padding-left: 0;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .seo-nav-style .other-option {
+    margin-left: 10px;
+    position: relative;
+    top: 7px;
+  }
+  .seo-banner-area {
+    padding-top: 150px;
+    padding-bottom: 100px;
+    height: 100%;
+  }
+  .seo-banner-area .banner-text h1 {
+    font-size: 40px;
+  }
+  .seo-box-area .single-box {
+    padding: 0;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  .seo-about-area .about-text h2 {
+    font-size: 30px;
+  }
+  .seo-increase-area .great-product-text h2 {
+    font-size: 30px;
+  }
+  .seo-increase-area .product-services-list span {
+    font-size: 14px;
+  }
+  .seo-analysis-area .analysis-text h2 {
+    font-size: 30px;
+  }
+  .seo-blog-area .single-blog-post .post-content {
+    padding: 20px;
+  }
+  .seo-blog-area .single-blog-post .post-content h3 a {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-width: 1824px) {
+  .seo-banner-area .banner-shape {
+    width: 1085px;
+  }
+}
+/*# sourceMappingURL=seo-responsive.css.map */

@@ -1,0 +1,357 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900);
+
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,200,300,500,600,700,800,900);
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&family=Roboto&display=swap');
+
+.mt-10 {
+	margin-top:10px !important;
+}
+.mt-20 {
+	margin-top: 20px !important;
+}
+.mt-30 {
+	margin-top: 30px !important;
+}
+.mt-40 {
+	margin-top: 40px !important;
+}
+.mt-50 {
+	margin-top: 50px !important;
+}
+.ml-80 {
+	margin-left: 80px !important;
+}
+.ml-110 {
+	margin-left: 110px !important;
+}
+.mb-50 {
+	margin-bottom: 50px !important;
+}
+.pt-30 {
+	padding-top: 30px !important;
+}
+
+.make-appointmen .banner-text h1 {
+    font-size: 55px;
+    color: #ffffff;
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+.make-appointmen .banner-text h6 {
+    font-size: 20px;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+.make-appointmen .banner-text p {
+    font-size: 20px;
+    color: #ffffff;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:normal;
+    
+}
+label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 300 !important;
+    font-size: 15px;
+    color: #000;
+	font-family: 'Roboto', sans-serif;
+}
+
+.marketing-service-area {
+	z-index:8;
+}
+.section-title p {
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+}
+.section-title h2 {
+    margin-bottom: 15px;
+    font-size: 35px;
+    margin-top: -5px;
+    text-align: left;
+}
+
+.marketing-how-we-work-area .section-title h2 {
+    margin-bottom: 15px;
+    font-size: 35px;
+    margin-top: -5px;
+    text-align: center;
+	font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
+.marketing-how-we-work-area .section-title p{
+text-align: center;
+}
+
+.marketing-how-we-work-area  .section-title {
+    max-width: 700px;
+    margin: 0 auto 30px;
+    text-align: center;
+}
+
+.marketing-how-we-work-area .col-md-6, .marketing-how-we-work-area .col-lg-6 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 2px !important;
+    padding-left: 2px !important;
+}
+
+.marketing-how-we-work-area .list-group-item-success {
+    color: #000;
+    background-color: #e2f1fa;
+}
+.marketing-how-we-work-area .list-group-item-info {
+    color: #000;
+    background-color: #fffdfd;
+}
+
+.marketing-how-we-work-area .list-group-item {
+     border: none;
+}
+.marketing-how-we-work-area  .list-group-item:first-child {
+     border-top-left-radius: 0px; 
+    border-top-right-radius: 0px; 
+}
+
+.marketing-how-we-work-area .right .list-group-item {
+    border: none;
+    padding-left: 150px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+}
+.marketing-how-we-work-area .left .list-group-item {
+    border: none;
+    padding-left: 40px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+}
+
+.section_category101 {
+    float: left;
+    width: 100%;
+    padding: 0px;
+    text-align: left;
+}
+.section_category101 .right {
+    background: #f8f8f8;
+    padding-bottom: 0px;
+}
+.section_category101 .testimonials2 {
+    position: relative;
+    width: 82%;
+    float: left;
+    padding: 49px 0px 68px  20px;
+    margin-right: 38%;
+    margin-left: 0px;
+    transition: all 0.3s ease-out 0s;
+}
+.margin-to4 {
+    float: left;
+    margin-top: 4px;
+    width: 100%;
+}
+.margin-top1 {
+    float: left;
+    margin-top: 10px;
+    width: 100%;
+}
+.margin-top2 {
+    float: left;
+    margin-top: 20px;
+    width: 100%;
+}
+.margin-top4 {
+    float: left;
+    margin-top: 40px;
+    width: 100%;
+}
+.margin-top6 {
+    float: left;
+    margin-top: 60px;
+    width: 100%;
+}
+.margin-top8 {
+    float: left;
+    margin-top: 80px;
+    width: 100%;
+}
+
+.section_category101 .left {
+     background: url(../../images/right.png) no-repeat right top;
+    height: 100%;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 0px;
+}
+
+.section_category102 {
+    float: left;
+    width: 100%;
+    padding: 0px;
+    text-align: left;
+}
+.section_category102 .left {
+    background: url(../../images/left.png) no-repeat center;
+	height: 100%;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 0px;
+}
+.section_category102 .right {
+    background: #f8f8f8;
+    padding-bottom: 13px;
+    
+}
+.section_category102 .testimonials2 {
+    position: relative;
+    width: 90%;
+    float: left;
+    padding: 64px 0px 67px 20px;
+    margin-right: 38%;
+    margin-left: 0px;
+    transition: all 0.3s ease-out 0s;
+}
+.section_category101  ul li {
+    font-size: 15px;
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 8px;
+	font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+
+}
+.section_category101  ul li i {
+    font-size: 20px;
+    position: absolute;
+    top: 4px;
+    left: 0;
+    background-color: #1089d4;
+    color: #ffffff;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    --hue: 190;
+}
+.section_category101 ul li:hover i {
+    -webkit-box-shadow: 0 0 0 15px transparent;
+    box-shadow: 0 0 0 15px transparent;
+    -webkit-animation: pulse 1s;
+    animation: pulse 1s;
+}
+
+.section_category102  ul li {
+    font-size: 15px;
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 8px;
+	font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.marketing-our-team-area .ben h2{
+	font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+.section_category102  ul li i {
+    font-size: 20px;
+    position: absolute;
+    top: 4px;
+    left: 0;
+    background-color: #1089d4;
+    color: #ffffff;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    --hue: 190;
+}
+.section_category102 ul li:hover i {
+    -webkit-box-shadow: 0 0 0 15px transparent;
+    box-shadow: 0 0 0 15px transparent;
+    -webkit-animation: pulse 1s;
+    animation: pulse 1s;
+}
+.marketing-our-team-area .section-title {
+    max-width: 700px;
+    margin: 0 auto 35px;
+    text-align: center;
+}
+.marketing-our-team-area .section-title h2 {
+    margin-bottom: 15px;
+    font-size: 35px;
+    margin-top: -5px;
+    text-align: center;
+}
+.marketing-our-team-area h2 {
+	color:#fff;
+	text-align:center;
+	font-weight: 700;
+}
+.marketing-our-team-area p {
+	color:#fff;
+	text-align:center;
+}
+.marketing-our-team-area .ben p {
+    font-family: 'Roboto', sans-serif;
+	text-align:center;
+    font-weight: 400;
+	font-size:16px;
+	margin-bottom: 10px;
+}
+.marketing-footer-bottom-area {
+    background-color: #01082d;
+    padding: 15px 0;
+    text-align: center;
+	 font-family: 'Roboto', sans-serif;
+}
+.new .marketing-our-team-area {
+   
+    background: transparent linear-gradient(271deg, var(--unnamed-color-1089d4) 0%, var(--unnamed-color-124d8a) 100%) 0% 0% no-repeat padding-box;
+    background: transparent linear-gradient(271deg, #1089D4 0%, #124D8A 100%) 0% 0% no-repeat padding-box;
+}
+.corporate-why-choose-us-area .section-title {
+    max-width: 1000px;
+    margin: 0 auto 60px;
+    text-align: center;
+}
+.corporate-why-choose-us-area .section-title h2 {
+	font-family: 'Raleway', sans-serif;
+	font-weight:700;
+	text-align:center;
+	margin-bottom: 50px;
+	line-height: 50px;
+}
+.corporate-why-choose-us-area  btn{
+background: #1089D4 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+
+.marketing-how-we-work-area tr:nth-child(odd) {background: #e2f1fa}
+.marketing-how-we-work-area tr:nth-child(even) {background: #fffdfd}
+@media (max-width: 480px) { 
+ #slider-section .make-appointmen{
+      position: static !important;
+      margin-top: -150px;
+    display: block;
+  }
+}
+@media (min-width: 481px) and (max-width: 767px) { 
+  #slider-section .make-appointmen{
+      position: static !important;
+      margin-top: -285px;
+    display: block;
+  }
+  .quotes {
+  margin-top: 60px;
+  }
+  .banner-text {
+  margin-top: 68px;
+  }
+}

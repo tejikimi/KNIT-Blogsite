@@ -1,0 +1,1001 @@
+
+.saas-font-style {
+  font-family: "Dosis", sans-serif;
+}
+
+p {
+  font-size: 14px !important;
+}
+
+/*===== START CORPORATE PAGE STYLE ======*/
+/* Saas Navbar Area
+=====================================================*/
+.saas-nav-style .main-nav {
+  background-color: transparent;
+  position: unset;
+  padding-top: 0;
+  padding-bottom: 0;
+  z-index: 1;
+}
+
+.saas-nav-style .main-nav nav .navbar-nav .nav-item a {
+  font-weight: 600;
+  font-size: 15px;
+  text-transform: capitalize;
+  overflow: hidden;
+  color: #333333;
+}
+
+.saas-nav-style .main-nav nav .navbar-nav .nav-item a.active {
+  color: #1089d4;
+}
+
+.saas-nav-style .main-nav nav .navbar-nav .nav-item a:hover {
+  color: #1089d4;
+}
+
+.saas-nav-style .main-nav nav .navbar-nav .nav-item .dropdown-menu {
+  background-color: #ffffff;
+  border: none;
+}
+
+.saas-nav-style .main-nav nav .navbar-nav .nav-item .dropdown-menu li a {
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: capitalize;
+  padding: 5px 15px;
+  color: #333333;
+  position: relative;
+  overflow: hidden;
+}
+
+.saas-nav-style .main-nav nav .navbar-nav .nav-item .dropdown-menu li a.active {
+  color: #1089d4;
+}
+
+.saas-nav-style .main-nav nav .navbar-nav .nav-item .dropdown-menu li a:hover {
+  color: #1089d4;
+  margin-left: 5px;
+}
+
+.saas-nav-style .main-nav nav .navbar-nav .nav-item .dropdown-menu li .dropdown-menu {
+  left: 230px;
+}
+
+.saas-nav-style .main-nav nav .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a {
+  color: #333333;
+}
+
+.saas-nav-style .main-nav nav .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:hover {
+  color: #1089d4;
+}
+
+.saas-nav-style .main-nav nav .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:active {
+  color: #1089d4;
+}
+
+.saas-nav-style .other-option {
+  margin-left: 160px;
+}
+
+.saas-nav-style .other-option .default-btn.saas-btn {
+  padding: 10px 25px;
+  font-size: 15px;
+}
+
+.saas-nav-style#header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: block;
+  -webkit-transition: top 0.3s;
+  transition: top 0.3s;
+  z-index: 999;
+}
+
+.saas-nav-style .navbar-area {
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.saas-nav-style .navbar-area.is-sticky {
+  -webkit-box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.06);
+          box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.06);
+  background-color: #ffffff !important;
+  z-index: 999999;
+}
+
+/* Saas Banner Area Style
+=====================================================*/
+.saas-banner-area {
+  background-image: url(../img/saas/banner-bg.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  position: relative;
+  padding-top: 200px;
+  padding-bottom: 0;
+}
+
+.saas-banner-area .banner-text {
+  max-width: 900px;
+  margin: 0 auto 35px;
+  text-align: center;
+  position: relative;
+}
+
+.saas-banner-area .banner-text h1 {
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+
+.saas-banner-area .banner-text p {
+  color: #333333;
+  margin-bottom: 35px;
+}
+
+.saas-banner-area .banner-text .default-btn {
+  background-color: #1089d4;
+  color: #ffffff;
+  margin: 0 08px;
+  border: 1px solid #1089d4;
+}
+
+.saas-banner-area .banner-text .default-btn.btn-two {
+  border: 1px solid #1089d4;
+  background-color: transparent;
+  color: #1089d4;
+}
+
+.saas-banner-area .banner-text .default-btn.btn-two:hover {
+  color: #ffffff;
+  background-color: #1089d4;
+}
+
+.saas-banner-area .saas-banner-img {
+  margin-bottom: -11px;
+}
+
+/* Saas Partner Area Style
+=====================================================*/
+.saas-partner-area .partner-border {
+  border-bottom: 1px solid #d1d1d2;
+  padding-bottom: 100px;
+}
+
+.saas-partner-area .owl-carousel .owl-item img {
+  width: unset;
+  margin: auto;
+  opacity: 0.5;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.saas-partner-area .owl-carousel .owl-item img:hover {
+  opacity: 1;
+}
+
+.saas-partner-area .single-logo {
+  line-height: 1;
+  text-align: center;
+}
+
+/* Saas Service Area Style
+=====================================================*/
+.saas-service-area .single-service {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  margin-bottom: 30px;
+  margin-top: 15px;
+}
+
+.saas-service-area .single-service i {
+  font-size: 40px;
+  display: inline-block;
+  position: relative;
+  margin-bottom: 15px;
+  left: 15px;
+  color: #1089d4;
+}
+
+.saas-service-area .single-service i::after {
+  content: "";
+  position: absolute;
+  bottom: 4px;
+  right: 5px;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#e9e3fa), to(#ffffff));
+  background-image: linear-gradient(to bottom right, #e9e3fa, #ffffff);
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  z-index: -1;
+}
+
+.saas-service-area .single-service h3 {
+  margin-bottom: 10px;
+}
+
+.saas-service-area .single-service:hover {
+  -webkit-transform: translateX(-5px);
+          transform: translateX(-5px);
+}
+
+/* Saas Features Area Style
+=====================================================*/
+.saas-features-area {
+  background-color: #edeaf6;
+  overflow: hidden;
+}
+
+.saas-features-area .features-text {
+ 
+  margin-bottom: 30px;
+}
+
+.saas-features-area .features-text h2 {
+  margin-bottom: 15px;
+  font-size: 35px;
+  margin-top: -5px;
+}
+
+.saas-features-area .single-features {
+  text-align: center;
+  background-color: #ffffff;
+  padding: 15px;
+  border-radius: 4px;
+  position: relative;
+  overflow: hidden;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  margin-bottom: 30px;
+}
+
+.saas-features-area .single-features::before {
+  content: "";
+  position: absolute;
+  top: -15px;
+  left: -15px;
+  width: 15px;
+  height: 15px;
+  border-top: 15px solid #1089d4;
+  border-right: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-left: 15px solid #1089d4;
+  opacity: 1;
+  z-index: -1;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.saas-features-area .single-features::after {
+  content: "";
+  position: absolute;
+  bottom: -15px;
+  right: -15px;
+  width: 15px;
+  height: 15px;
+  border-top: 15px solid transparent;
+  border-right: 15px solid #1089d4;
+  border-bottom: 15px solid #1089d4;
+  border-left: 15px solid transparent;
+  opacity: 1;
+  z-index: -1;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.saas-features-area .single-features i {
+  font-size: 50px;
+  color: #1089d4;
+}
+
+.saas-features-area .single-features h3 {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.saas-features-area .single-features:hover {
+  -webkit-transform: translateX(-5px);
+          transform: translateX(-5px);
+}
+
+.saas-features-area .single-features:hover::before {
+  top: 0;
+  left: 0;
+}
+
+.saas-features-area .single-features:hover::after {
+  bottom: 0;
+  right: 0;
+}
+
+.saas-features-area .default-btn.saas-btn {
+  display: table;
+ 
+}
+
+/* Saas Get Started Area Style
+=====================================================*/
+.saas-get-started-area .get-started-text h2 {
+  margin-bottom: 20px;
+  font-size: 35px;
+  margin-top: -5px;
+}
+
+.saas-get-started-area .get-started-text ul {
+  margin-bottom: 30px;
+}
+
+.saas-get-started-area .get-started-text ul li {
+  font-size: 15px;
+  font-weight: 600;
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 8px;
+}
+
+.saas-get-started-area .get-started-text ul li:last-child {
+  margin-bottom: 0;
+}
+
+.saas-get-started-area .get-started-text ul li i {
+  font-size: 25px;
+  color: #1089d4;
+  position: absolute;
+  top: 2px;
+  left: 0;
+}
+
+/* Saas Sign Up Done Area Style
+=====================================================*/
+.saas-sign-up-done-area {
+  text-align: center;
+  background-color: #1089d4;
+}
+
+.saas-sign-up-done-area .sign-up-done-text {
+  max-width: 900px;
+  margin: 0 auto -7px;
+}
+
+.saas-sign-up-done-area .sign-up-done-text h2 {
+  margin-bottom: 25px;
+  font-size: 35px;
+  margin-top: -5px;
+  color: #ffffff;
+}
+
+.saas-sign-up-done-area .sign-up-done-text p {
+  color: #ffffff;
+  padding-bottom: 20px;
+}
+
+.saas-sign-up-done-area .sign-up-done-text .default-btn.saas-btn {
+  background-color: #ffffff;
+  color: #1089d4;
+}
+
+/* Saas Great Product Area Style
+=====================================================*/
+.saas-great-product-area {
+  overflow: hidden;
+}
+
+.saas-great-product-area .great-product-text h2 {
+  margin-bottom: 25px;
+  font-size: 35px;
+  margin-top: -5px;
+}
+
+.saas-great-product-area .great-product-text p {
+  margin-bottom: 30px;
+}
+
+.saas-great-product-area .product-services-list {
+  position: relative;
+  -webkit-box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
+          box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
+  background-color: #ffffff;
+  padding-left: 50px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.saas-great-product-area .product-services-list i {
+  font-size: 25px;
+  position: absolute;
+  top: 12px;
+  left: 15px;
+  color: #1089d4;
+}
+
+.saas-great-product-area .product-services-list span {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.saas-great-product-area .product-services-list:hover {
+  -webkit-transform: translateX(-5px);
+          transform: translateX(-5px);
+}
+
+.saas-great-product-area .default-btn {
+  margin-top: 10px;
+}
+
+/* Saas Pricing Area Style
+=====================================================*/
+.saas-pricing-area .basic .pricing-header {
+  background-color: #1089d4;
+}
+
+.saas-pricing-area .basic .price-circle {
+  border: 10px solid #1089d4;
+  -webkit-transition: all .4s;
+  transition: all .4s;
+}
+
+.saas-pricing-area .basic:hover .price-circle {
+  border-width: 5px;
+}
+
+.saas-pricing-area .premium .pricing-header {
+  background-color: #26de81;
+}
+
+.saas-pricing-area .premium .price-circle {
+  border: 10px solid #26de81;
+  -webkit-transition: all .4s;
+  transition: all .4s;
+}
+
+.saas-pricing-area .premium:hover .price-circle {
+  border-width: 5px;
+}
+
+.saas-pricing-area .standard .pricing-header {
+  background-color: #1089d4;
+}
+
+.saas-pricing-area .standard .price-circle {
+  border: 10px solid #1089d4;
+  -webkit-transition: all .4s;
+  transition: all .4s;
+}
+
+.saas-pricing-area .standard:hover .price-circle {
+  border-width: 5px;
+}
+
+.saas-pricing-area .pricing-card {
+  background-color: #ffffff;
+  border-radius: 0;
+  position: relative;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  text-align: center;
+  margin-bottom: 30px;
+  -webkit-box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
+          box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
+}
+
+.saas-pricing-area .pricing-card:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.saas-pricing-area .pricing-card .popular {
+  position: absolute;
+  top: 0;
+  right: 5%;
+  width: auto;
+  padding: 10px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-color: #1089d4;
+  color: #ffffff;
+  font-size: 12px;
+  z-index: 1;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.saas-pricing-area .pricing-card .badge-box {
+  padding: 0 40px;
+  margin-top: 100px;
+}
+
+.saas-pricing-area .pricing-card .badge-box span {
+  display: inline-block;
+  border: 1px solid #1089d4;
+  padding: 4px 12px;
+  border-radius: 25px;
+  overflow: hidden;
+  color: #1089d4;
+}
+
+.saas-pricing-area .pricing-card .pricing-header {
+  width: 100%;
+  height: 150px;
+  position: relative;
+}
+
+.saas-pricing-area .pricing-card .pricing-header .plan-title {
+  color: #ffffff;
+  position: relative;
+  top: 25%;
+  font-family: "Dosis", sans-serif;
+  text-transform: uppercase;
+}
+
+.saas-pricing-area .pricing-card .pricing-header .price-circle {
+  width: calc(33.3% - 30px);
+  width: 120px;
+  height: 120px;
+  border-radius: 100%;
+  left: calc(50% - 60px);
+  top: 60%;
+  background-color: #ffffff;
+  position: absolute;
+}
+
+.saas-pricing-area .pricing-card .pricing-header .price-circle .info {
+  display: block;
+  font-size: 12px;
+  font-weight: bold;
+  color: gray;
+}
+
+.saas-pricing-area .pricing-card .pricing-header .price-circle .price-title {
+  display: block;
+  font-size: 25px;
+  padding: 35px 0 0;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.saas-pricing-area .pricing-card .pricing-header h2 {
+  position: relative;
+  top: 40%;
+  color: #ffffff;
+}
+
+.saas-pricing-area .pricing-card ul {
+  margin: 10px 0 0 0;
+  padding: 0;
+}
+
+.saas-pricing-area .pricing-card ul li {
+  list-style-type: none;
+  display: block;
+  padding: 15px 0 15px 0;
+  margin: 0;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.saas-pricing-area .pricing-card .buy-button-box {
+  line-height: 1;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+/* Saas Review Area Style
+=====================================================*/
+.saas-review-area .section-title {
+  margin-bottom: 45px;
+}
+
+.saas-review-area .single-review {
+  text-align: center;
+  -webkit-box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
+          box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
+  background-color: #ffffff;
+  padding: 30px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.saas-review-area .single-review .review-img {
+  margin-bottom: 10px;
+}
+
+.saas-review-area .single-review .review-img img {
+  border-radius: 50%;
+  width: unset;
+  margin: auto;
+}
+
+.saas-review-area .single-review ul {
+  margin-bottom: 10px;
+}
+
+.saas-review-area .single-review ul li {
+  display: inline-block;
+}
+
+.saas-review-area .single-review ul li i {
+  color: #ed8a19;
+}
+
+.saas-review-area .single-review p {
+  margin-bottom: 18px;
+}
+
+.saas-review-area .single-review h3 {
+  line-height: 1;
+  font-size: 16px;
+  margin-bottom: 2px;
+}
+
+.saas-review-area .single-review span {
+  line-height: 1;
+  display: inline-block;
+  font-size: 13px;
+}
+
+.saas-review-area .single-review:hover {
+  -webkit-transform: translateX(-5px);
+          transform: translateX(-5px);
+}
+
+/* Saas FAQ Area Style
+=====================================================*/
+.saas-questions-area .faq-accordion .accordion {
+  list-style-type: none;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.saas-questions-area .faq-accordion .accordion .accordion-item {
+  display: block;
+  -webkit-box-shadow: 0 0 1.25rem rgba(108, 118, 134, 0.1);
+          box-shadow: 0 0 1.25rem rgba(108, 118, 134, 0.1);
+  background: #ffffff;
+}
+
+.saas-questions-area .faq-accordion .accordion .accordion-item:last-child {
+  margin-bottom: 0;
+}
+
+.saas-questions-area .faq-accordion .accordion .accordion-title {
+  padding: 12px 20px 12px 51px;
+  color: #333333;
+  position: relative;
+  border-bottom: 1px dashed #eeeeee;
+  margin-bottom: -1px;
+  display: block;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.saas-questions-area .faq-accordion .accordion .accordion-title i {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 40px;
+  text-align: center;
+  height: 100%;
+  background: #faf5f5;
+  color: #1089d4;
+  font-size: 14px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.saas-questions-area .faq-accordion .accordion .accordion-title i::before {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  right: 0;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.saas-questions-area .faq-accordion .accordion .accordion-title span {
+  position: absolute;
+  top: 14px;
+  left: 10px;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  background-color: #1089d4;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.saas-questions-area .faq-accordion .accordion .accordion-title.active {
+  border-bottom-color: #1089d4;
+}
+
+.saas-questions-area .faq-accordion .accordion .accordion-title.active i {
+  background-color: #1089d4;
+  color: #fff;
+}
+
+.saas-questions-area .faq-accordion .accordion .accordion-title.active i::before {
+  content: "\f063";
+}
+
+.saas-questions-area .faq-accordion .accordion .accordion-content {
+  display: none;
+  position: relative;
+  padding: 30px;
+  font-size: 14px;
+}
+
+.saas-questions-area .faq-accordion .accordion .accordion-content.show {
+  display: block;
+}
+
+/* Saas Blog Area Style
+======================================================*/
+.saas-blog-area .single-blog-post {
+  margin-bottom: 30px;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0 2px 10px 0px rgba(0, 0, 0, 0.08);
+          box-shadow: 0 2px 10px 0px rgba(0, 0, 0, 0.08);
+  border-radius: 5px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.saas-blog-area .single-blog-post .post-image {
+  position: relative;
+  overflow: hidden;
+}
+
+.saas-blog-area .single-blog-post .post-image a {
+  display: block;
+}
+
+.saas-blog-area .single-blog-post .post-image a img {
+  border-radius: 5px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.saas-blog-area .single-blog-post .post-content {
+  padding: 25px;
+}
+
+.saas-blog-area .single-blog-post .post-content .date {
+  color: #1089d4;
+  font-size: 12px;
+  margin-bottom: 5px;
+  margin-top: -4px;
+}
+
+.saas-blog-area .single-blog-post .post-content .date i {
+  font-size: 12px;
+}
+
+.saas-blog-area .single-blog-post .post-content h3 a {
+  margin-bottom: 8px;
+  line-height: 1.4;
+  color: #333333;
+}
+
+.saas-blog-area .single-blog-post .post-content p {
+  margin-bottom: 0;
+}
+
+.saas-blog-area .single-blog-post .post-content .read-more {
+  margin-top: 20px;
+}
+
+.saas-blog-area .single-blog-post:hover {
+  -webkit-transform: translateY(-5px);
+          transform: translateY(-5px);
+}
+
+.saas-blog-area .single-blog-post:hover h3 a {
+  color: #1089d4;
+}
+
+.saas-blog-area .single-blog-post:hover .post-image a img {
+  -webkit-transform: scale(1.3) rotate(4deg);
+          transform: scale(1.3) rotate(4deg);
+}
+
+.saas-blog-area .single-blog-post:hover .read-more {
+  color: #1089d4;
+}
+
+.saas-blog-area .single-blog-post:hover .read-more::after {
+  width: 15px;
+  right: -20px;
+}
+
+/* Saas Footer Top Area Style
+======================================================*/
+.saas-footer-top-area {
+  background-color: #223e9b;
+}
+
+.saas-footer-top-area .single-widget {
+  margin-bottom: 30px;
+}
+
+.saas-footer-top-area .single-widget img {
+  margin-bottom: 20px;
+}
+
+.saas-footer-top-area .single-widget h3 {
+  color: #ffffff;
+  margin-bottom: 20px;
+  padding-bottom: 5px;
+}
+
+.saas-footer-top-area .single-widget p {
+  color: #e6e6e6;
+  margin-bottom: 25px;
+  font-size: 15px !important;
+}
+
+.saas-footer-top-area .single-widget ul li {
+  position: relative;
+  padding-left: 15px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  margin-bottom: 8px;
+}
+
+.saas-footer-top-area .single-widget ul li span {
+  font-size: 15px;
+  display: block;
+  font-weight: normal;
+}
+
+.saas-footer-top-area .single-widget ul li i {
+  font-size: 25px;
+  position: absolute;
+  top: 2px;
+  left: -9px;
+  color: #ffffff;
+}
+
+.saas-footer-top-area .single-widget ul li a {
+  color: #e6e6e6;
+  font-size: 15px;
+  display: block;
+}
+
+.saas-footer-top-area .single-widget ul li:hover {
+  margin-left: 5px;
+}
+
+.saas-footer-top-area .single-widget ul li:last-child {
+  margin-bottom: 0;
+}
+
+.saas-footer-top-area .single-widget .address li {
+  color: #e6e6e6;
+  font-weight: 600;
+  padding-left: 35px;
+  font-size: 16px;
+}
+
+.saas-footer-top-area .single-widget .address li i {
+  left: 0;
+}
+
+.saas-footer-top-area .single-widget .address li:hover {
+  margin-left: 0;
+}
+
+.saas-footer-top-area .single-widget .address a {
+  font-weight: normal;
+}
+
+.saas-footer-top-area .single-widget .newsletter-form label {
+  color: #e6e6e6;
+}
+
+.saas-footer-top-area .single-widget .newsletter-form .input-newsletter {
+  display: block;
+  width: 100%;
+  background-color: #1e2e6d;
+  border: none;
+  height: 40px;
+  padding-left: 25px;
+  border-radius: 50px;
+  outline: 0;
+  color: #ffffff;
+}
+
+.saas-footer-top-area .single-widget .newsletter-form .input-newsletter::-webkit-input-placeholder {
+  color: #e6e6e6;
+}
+
+.saas-footer-top-area .single-widget .newsletter-form .input-newsletter:-ms-input-placeholder {
+  color: #e6e6e6;
+}
+
+.saas-footer-top-area .single-widget .newsletter-form .input-newsletter::-ms-input-placeholder {
+  color: #e6e6e6;
+}
+
+.saas-footer-top-area .single-widget .newsletter-form .input-newsletter::placeholder {
+  color: #e6e6e6;
+}
+
+.saas-footer-top-area .single-widget .newsletter-form button {
+  background-color: #1089d4;
+  color: #ffffff;
+  border: none;
+  height: 40px;
+  padding: 0 30px;
+  border-radius: 50px;
+  line-height: 40px;
+  text-transform: capitalize;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 10px;
+  --hue: 190;
+}
+
+.saas-footer-top-area .single-widget .newsletter-form button:hover {
+  background-color: #1089d4;
+  color: #ffffff;
+  -webkit-box-shadow: 0 0 0 1em transparent;
+          box-shadow: 0 0 0 1em transparent;
+  -webkit-animation: pulse 1s;
+          animation: pulse 1s;
+}
+
+/* Saas Footer Bottom Area Style
+=====================================================*/
+.saas-footer-bottom-area {
+  background-color: #262e55;
+  padding: 15px 0;
+}
+
+.saas-footer-bottom-area p {
+  color: #ffffff;
+  margin-top: 4px;
+}
+
+.saas-footer-bottom-area .conditions {
+  float: right;
+}
+
+.saas-footer-bottom-area .conditions li {
+  display: inline-block;
+  padding-left: 20px;
+  position: relative;
+}
+
+.saas-footer-bottom-area .conditions li::before {
+  content: "";
+  position: absolute;
+  top: 6px;
+  right: -14px;
+  width: 1px;
+  height: 15px;
+  background-color: #ffffff;
+}
+
+.saas-footer-bottom-area .conditions li a {
+  color: #ffffff;
+}
+
+.saas-footer-bottom-area .conditions li:last-child::before {
+  display: none;
+}
+
+/*===== END CORPORATE PAGE STYLE ======*/
+/*# sourceMappingURL=saas-style.css.map */

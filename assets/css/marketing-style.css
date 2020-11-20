@@ -1,0 +1,1377 @@
+/*
+@File: Klaz Template Styles
+
+* This file contains the styling for the actual template, this
+is the file you need to edit to change the look of the
+template.
+
+This files table contents are outlined below>>>>>
+
+******************************************* 
+** - Navbar Area Style
+** - Main Banner Area Style 
+** - Since Area Style
+** - Service Area Style
+** - How It Work Area Style
+** - counter Area Style
+** - Our Recent Case Area Style
+** - Our Team Area Style
+** - Customer Area Style
+** - Blog Area Style
+** - partner Area Style
+** - Footer Top Area Style
+** - Footer Bottom Area Style
+*******************************************
+*/
+/*===== START MARKETING AGENCY PAGE STYLE ======*/
+/* Marketing Navbar Area
+=====================================================*/
+.marketing-nav-style .main-nav {
+  background-color: #ffffff;
+  position: unset;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.marketing-nav-style .main-nav nav .navbar-nav .nav-item a {
+  font-weight: 600;
+  font-size: 15px;
+  text-transform: capitalize;
+  position: relative;
+  overflow: hidden;
+  color: #333333;
+}
+
+.marketing-nav-style .main-nav nav .navbar-nav .nav-item a.active {
+  color: #1089d4;
+}
+
+.marketing-nav-style .main-nav nav .navbar-nav .nav-item a.active::before {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.marketing-nav-style .main-nav nav .navbar-nav .nav-item a::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: transparent;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.marketing-nav-style .main-nav nav .navbar-nav .nav-item a:hover {
+  color: #1089d4;
+}
+
+.marketing-nav-style .main-nav nav .navbar-nav .nav-item a:hover::before {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.marketing-nav-style .main-nav nav .navbar-nav .nav-item:hover a {
+  color: #1089d4;
+}
+
+.marketing-nav-style .main-nav nav .navbar-nav .nav-item:hover a::before {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.marketing-nav-style .main-nav nav .navbar-nav .nav-item .dropdown-menu {
+  background-color: #ffffff;
+  padding-left: 25px;
+  padding-right: 25px;
+  border: none;
+}
+
+.marketing-nav-style .main-nav nav .navbar-nav .nav-item .dropdown-menu li a {
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: capitalize;
+  padding: 5px 0;
+  color: #333333;
+  position: relative;
+  overflow: hidden;
+}
+
+.marketing-nav-style .main-nav nav .navbar-nav .nav-item .dropdown-menu li a.active {
+  color: #1089d4;
+  padding-left: 15px;
+}
+
+.marketing-nav-style .main-nav nav .navbar-nav .nav-item .dropdown-menu li a.active::before {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.marketing-nav-style .main-nav nav .navbar-nav .nav-item .dropdown-menu li a:hover {
+  color: #1089d4;
+  padding-left: 15px;
+}
+
+.marketing-nav-style .main-nav nav .navbar-nav .nav-item .dropdown-menu li a:hover::before {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.marketing-nav-style .main-nav nav .navbar-nav .nav-item .dropdown-menu li a::before {
+  bottom: 15px;
+  width: 10px;
+  height: 2px;
+  background-color: #1089d4;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+}
+
+.marketing-nav-style .other-option {
+  margin-left: 200px;
+}
+
+.marketing-nav-style .other-option .search-box-item {
+  display: inline-block;
+  position: relative;
+  color: #333333;
+  cursor: pointer;
+  width: 15px;
+  top: 3px;
+}
+
+.marketing-nav-style .other-option .search-box-item i {
+  font-size: 17px;
+  width: 30px;
+  height: 30px;
+  background-color: #1089d4;
+  display: inline-block;
+  text-align: center;
+  line-height: 30px;
+  border-radius: 50%;
+  color: #ffffff;
+  --hue: 190;
+}
+
+.marketing-nav-style .other-option .search-box-item .search-overlay.search-popup {
+  position: absolute;
+  top: 100%;
+  width: 300px;
+  right: 0;
+  background: #ffffff;
+  z-index: 2;
+  padding: 20px;
+  -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+  margin-top: 25px;
+}
+
+.marketing-nav-style .other-option .search-box-item .search-overlay.search-popup .search-form {
+  position: relative;
+}
+
+.marketing-nav-style .other-option .search-box-item .search-overlay.search-popup .search-form .search-input {
+  display: block;
+  width: 100%;
+  height: 50px;
+  line-height: initial;
+  border: 1px solid #eeeeee;
+  color: #212529;
+  outline: 0;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  padding-top: 4px;
+  padding-left: 10px;
+}
+
+.marketing-nav-style .other-option .search-box-item .search-overlay.search-popup .search-form .search-input:focus {
+  border-color: #1089d4;
+}
+
+.marketing-nav-style .other-option .search-box-item .search-overlay.search-popup .search-form .search-button {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 50px;
+  background: transparent;
+  border: none;
+  width: 50px;
+  outline: 0;
+  color: #102a82;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  padding: 0;
+  cursor: pointer;
+}
+
+.marketing-nav-style .other-option .search-box-item .search-overlay.search-popup .search-form .search-button:focus {
+  color: #1089d4;
+}
+
+.marketing-nav-style .other-option .search-box-item .search-btn {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.marketing-nav-style .other-option .search-box-item .search-btn:hover {
+  color: #ffffff;
+  -webkit-box-shadow: 0 0 0 1em transparent;
+          box-shadow: 0 0 0 1em transparent;
+  -webkit-animation: pulse 1s;
+          animation: pulse 1s;
+}
+
+.marketing-nav-style .other-option .search-box-item .search-overlay {
+  display: none;
+}
+
+.marketing-nav-style .other-option .search-box-item .close-btn {
+  cursor: pointer;
+  display: none;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  color: #ffffff;
+}
+
+.marketing-nav-style .other-option .search-box-item .close-btn:hover {
+  color: #ffffff;
+}
+
+.marketing-nav-style .other-option .search-box-item .close-btn.active {
+  display: block;
+}
+
+.marketing-nav-style .other-option .sidebar-menu {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.marketing-nav-style .other-option .sidebar-menu a {
+  color: #333333;
+}
+
+.marketing-nav-style .other-option .sidebar-menu a i {
+  font-size: 20px;
+}
+
+.marketing-nav-style .other-option .sidebar-menu:hover a {
+  color: #1089d4;
+}
+
+.marketing-nav-style#header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: block;
+  -webkit-transition: top 0.3s;
+  transition: top 0.3s;
+  z-index: 999;
+}
+
+.marketing-nav-style .navbar-area {
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.marketing-nav-style .navbar-area.is-sticky {
+  -webkit-box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.06);
+          box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.06);
+  background-color: #1089d4 !important;
+  z-index: 9999;
+}
+
+/* Banner Area Style
+=====================================================*/
+.marketing-banner-area {
+  background-image: url(../img/marketing-agency/banner-img.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+}
+
+.marketing-banner-area::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #1089d4;
+  opacity: 0.5;
+}
+
+.marketing-banner-area .banner-text {
+  max-width: 100%;
+  margin-top: 70px;
+  position: relative;
+  z-index: 1;
+}
+
+.marketing-banner-area .banner-text h1 {
+  font-size: 50px;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+.marketing-banner-area .banner-text p {
+  color: #ffffff;
+  max-width: 500px;
+  margin-bottom: 30px;
+}
+
+.marketing-banner-area .banner-text .default-btn {
+  background-color: #ffffff;
+  color: #1089d4;
+}
+
+/* Marketing Since Area Style
+=====================================================*/
+.marketing-since-area {
+  position: relative;
+  padding-bottom: 138px;
+}
+
+.marketing-since-area .shape-2 {
+  position: absolute;
+  top: 30px;
+  right: 200px;
+  -webkit-animation: animationFramesOne 20s infinite linear;
+          animation: animationFramesOne 20s infinite linear;
+  width: 30px;
+}
+
+.marketing-since-area .shape-3 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  -webkit-animation: moveLeftBounce 15s linear infinite;
+          animation: moveLeftBounce 15s linear infinite;
+  width: 50px;
+}
+
+.marketing-since-area .since-img {
+  position: relative;
+}
+
+.marketing-since-area .since-img .since-shape {
+  position: absolute;
+  bottom: -38px;
+  left: -59px;
+  width: 100%;
+  z-index: -1;
+}
+
+.marketing-since-area .since-title {
+  margin-left: 20px;
+}
+
+.marketing-since-area .since-title span {
+  color: #1089d4;
+  margin-bottom: 15px;
+  display: block;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1;
+}
+
+.marketing-since-area .since-title h2 {
+  margin-bottom: 20px;
+  font-size: 35px;
+}
+
+.marketing-since-area .since-title h2 span {
+  color: #1089d4;
+}
+
+.marketing-since-area .since-title .since-mark {
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.marketing-since-area .since-title p {
+  margin-bottom: 0;
+}
+
+.marketing-since-area .since-title .default-btn {
+  margin-top: 35px;
+}
+
+/* Marketing Service Area Style
+=====================================================*/
+.marketing-service-area .single-service {
+  padding: 30px;
+  margin-bottom: 30px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  text-align: center;
+}
+
+.marketing-service-area .single-service::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
+          box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
+  background-color: #ffffff;
+  opacity: 1;
+  z-index: -1;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.marketing-service-area .single-service::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 15px;
+  height: 15px;
+  border-top: 15px solid transparent;
+  border-right: 15px solid #1089d4;
+  border-bottom: 15px solid #1089d4;
+  border-left: 15px solid transparent;
+  opacity: 1;
+  z-index: -1;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.marketing-service-area .single-service i {
+  font-size: 25px;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  background-color: #1089d4;
+  color: #ffffff;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  position: relative;
+  text-align: center;
+  z-index: 1;
+}
+
+.marketing-service-area .single-service i::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  background-color: #1089d4;
+  border-radius: 50%;
+  z-index: -1;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.marketing-service-area .single-service h3 {
+  color: #333333;
+  margin-bottom: 12px;
+}
+
+.marketing-service-area .single-service p {
+  margin-bottom: 15px;
+}
+
+.marketing-service-area .single-service.bg-1 {
+  background-image: url(../img/marketing-agency/service/1.jpg);
+}
+
+.marketing-service-area .single-service.bg-2 {
+  background-image: url(../img/marketing-agency/service/2.jpg);
+}
+
+.marketing-service-area .single-service.bg-3 {
+  background-image: url(../img/marketing-agency/service/1.jpg);
+}
+
+.marketing-service-area .single-service:hover {
+  border-radius: 0;
+}
+
+.marketing-service-area .single-service:hover::before {
+  opacity: 0.5;
+  border-radius: 0;
+  background-color: #1089d4;
+}
+
+.marketing-service-area .single-service:hover h3 {
+  color: #ffffff;
+}
+
+.marketing-service-area .single-service:hover p {
+  color: #ffffff;
+}
+
+.marketing-service-area .single-service:hover .read-more {
+  color: #ffffff;
+}
+
+.marketing-service-area .single-service:hover .read-more::after {
+  background-color: #ffffff;
+}
+
+.marketing-service-area .single-service:hover i {
+  color: #ffffff;
+  background-color: #1089d4;
+}
+
+.marketing-service-area .single-service:hover i::after {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+/* Marketing How It Work Area Style
+=====================================================*/
+.marketing-how-we-work-area .single-work {
+  text-align: center;
+  -webkit-box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
+          box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
+  background-color: #ffffff;
+  padding: 30px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  margin-bottom: 30px;
+}
+
+.marketing-how-we-work-area .single-work span {
+  font-size: 50px;
+  position: relative;
+  display: block;
+  z-index: 1;
+  color: #ffffff;
+  margin-bottom: 15px;
+  margin-top: -10px;
+}
+
+.marketing-how-we-work-area .single-work span::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100px;
+  height: 100px;
+  background-image: url(../img/marketing-agency/shape/4.png);
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  z-index: -1;
+  margin: auto;
+}
+
+.marketing-how-we-work-area .single-work h3 {
+  margin-bottom: 11px;
+}
+
+.marketing-how-we-work-area .single-work p {
+  margin-bottom: -3px;
+}
+
+.marketing-how-we-work-area .single-work:hover {
+  -webkit-transform: translateX(-5px);
+          transform: translateX(-5px);
+}
+
+.marketing-how-we-work-area .single-work:hover span {
+  -webkit-animation: heartBeat 1s infinite linear;
+          animation: heartBeat 1s infinite linear;
+}
+
+/* Marketing Counter Area Style
+=====================================================*/
+.marketing-counter-area {
+  background-image: url(../img/marketing-agency/counter-bg.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+}
+
+.marketing-counter-area .section-title h2 {
+  color: #ffffff;
+}
+
+.marketing-counter-area::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #1089d4;
+  opacity: 0.5;
+  z-index: -1;
+}
+
+.marketing-counter-area .single-counter {
+  text-align: center;
+  background-color: #ffffff;
+  padding: 30px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+.marketing-counter-area .single-counter::before {
+  content: "";
+  position: absolute;
+  top: -15px;
+  left: -15px;
+  width: 15px;
+  height: 15px;
+  border-top: 15px solid #1089d4;
+  border-right: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-left: 15px solid #1089d4;
+  opacity: 1;
+  z-index: -1;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.marketing-counter-area .single-counter::after {
+  content: "";
+  position: absolute;
+  bottom: -15px;
+  right: -15px;
+  width: 15px;
+  height: 15px;
+  border-top: 15px solid transparent;
+  border-right: 15px solid #1089d4;
+  border-bottom: 15px solid #1089d4;
+  border-left: 15px solid transparent;
+  opacity: 1;
+  z-index: -1;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.marketing-counter-area .single-counter i {
+  font-size: 50px;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.marketing-counter-area .single-counter h2 {
+  margin-bottom: 4px;
+}
+
+.marketing-counter-area .single-counter p {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.marketing-counter-area .single-counter:hover {
+  -webkit-transform: translateX(-5px);
+          transform: translateX(-5px);
+}
+
+.marketing-counter-area .single-counter:hover::before {
+  top: 0;
+  left: 0;
+}
+
+.marketing-counter-area .single-counter:hover::after {
+  bottom: 0;
+  right: 0;
+}
+
+/* Marketing Our Recent Case Area Style
+=====================================================*/
+.marketing-recent-case-area .shorting-menu {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.marketing-recent-case-area .shorting-menu button {
+  background-color: transparent;
+  cursor: pointer;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  font-size: 15px;
+  font-weight: 600;
+  border: 1px solid #1089d4;
+  padding: 8px 15px;
+  margin: 0 5px;
+}
+
+.marketing-recent-case-area .shorting-menu button:hover {
+  color: #ffffff;
+  background-color: #1089d4;
+}
+
+.marketing-recent-case-area .shorting-menu button.active {
+  color: #ffffff;
+  background-color: #1089d4;
+}
+
+.marketing-recent-case-area .default-btn {
+  margin: auto;
+  display: table;
+}
+
+.marketing-recent-case-area .single-case {
+  margin-bottom: 30px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.marketing-recent-case-area .single-case .case-content {
+  position: relative;
+  padding-left: 55px;
+  -webkit-box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
+          box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
+  background-color: #ffffff;
+  padding: 30px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.marketing-recent-case-area .single-case .case-content .case-title {
+  padding-left: 65px;
+}
+
+.marketing-recent-case-area .single-case .case-content span {
+  position: absolute;
+  top: 33px;
+  left: 30px;
+  font-size: 40px;
+  line-height: 1;
+  font-weight: 600;
+  color: #e9e9e9;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.marketing-recent-case-area .single-case .case-content h3 {
+  margin-bottom: 8px;
+  color: #333333;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.marketing-recent-case-area .single-case .case-content p {
+  margin-bottom: 0;
+  color: #a8a7a7;
+  font-weight: 600;
+  line-height: 1;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.marketing-recent-case-area .single-case .case-content .case-read {
+  display: inline-block;
+  color: #333333;
+  width: 30px;
+  height: 30px;
+  background-color: #d8d4d4;
+  border-radius: 50%;
+  position: absolute;
+  top: 47px;
+  right: 30px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.marketing-recent-case-area .single-case .case-content .case-read i {
+  font-size: 30px;
+}
+
+.marketing-recent-case-area .single-case:hover {
+  -webkit-transform: translateX(-5px);
+          transform: translateX(-5px);
+}
+
+.marketing-recent-case-area .single-case:hover .case-content {
+  background-color: #1089d4;
+}
+
+.marketing-recent-case-area .single-case:hover .case-content h3 {
+  color: #ffffff;
+}
+
+.marketing-recent-case-area .single-case:hover .case-content p {
+  color: #ffffff;
+}
+
+.marketing-recent-case-area .shorting .mix {
+  display: none;
+}
+
+/* Marketing Our Team Area Style
+=====================================================*/
+.marketing-our-team-area {
+  background-color: #1089d4;
+}
+
+.marketing-our-team-area .section-title .top-title {
+  color: #ffffff;
+}
+
+.marketing-our-team-area .section-title h2 {
+  color: #ffffff;
+}
+
+.marketing-our-team-area .section-title p {
+  color: #ffffff;
+}
+
+.marketing-our-team-area .single-team {
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.marketing-our-team-area .single-team::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #0353a7;
+  z-index: 1;
+  opacity: 0;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.marketing-our-team-area .single-team .team-img {
+  position: relative;
+}
+
+.marketing-our-team-area .single-team .team-img .team-icon {
+  position: absolute;
+  top: -300px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  z-index: 1;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.marketing-our-team-area .single-team .team-img .team-icon ul li {
+  display: inline-block;
+}
+
+.marketing-our-team-area .single-team .team-img .team-icon ul li a {
+  color: #1089d4;
+  background-color: #ffffff;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 38px;
+  border-radius: 50%;
+  --hue: 190;
+}
+
+.marketing-our-team-area .single-team .team-img .team-icon ul li a:hover {
+  background-color: #ffffff;
+  -webkit-box-shadow: 0 0 0 1em transparent;
+          box-shadow: 0 0 0 1em transparent;
+  -webkit-animation: pulse 1s;
+          animation: pulse 1s;
+}
+
+.marketing-our-team-area .single-team .team-img .team-icon ul li a i {
+  font-size: 20px;
+}
+
+.marketing-our-team-area .single-team .team-content {
+  position: relative;
+  z-index: 1;
+  padding: 30px;
+}
+
+.marketing-our-team-area .single-team .team-content h3 {
+  color: #ffffff;
+  line-height: 1;
+  margin-bottom: 15px;
+}
+
+.marketing-our-team-area .single-team .team-content span {
+  color: #ffffff;
+  line-height: 1;
+  display: block;
+}
+
+.marketing-our-team-area .single-team:hover::before {
+  opacity: 0.5;
+}
+
+.marketing-our-team-area .single-team:hover .team-icon {
+  top: 0;
+}
+
+.marketing-our-team-area .owl-dots {
+  margin-top: 20px !important;
+  line-height: 1;
+}
+
+.marketing-our-team-area .owl-dots .owl-dot {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.marketing-our-team-area .owl-dots .owl-dot span {
+  width: 20px;
+  height: 5px;
+  margin: 0 5px;
+  background: #ffffff;
+  display: block;
+  border-radius: 0;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.marketing-our-team-area .owl-dots .owl-dot.active span {
+  background-color: #1e2e6d;
+}
+
+.marketing-our-team-area .owl-dots .owl-dot:hover span {
+  background-color: #1e2e6d;
+}
+
+/* Marketing Customer Area Style
+=====================================================*/
+.marketing-customer-area .customer-bg-color {
+  -webkit-box-shadow: 0 0 14px 1px rgba(0, 0, 0, 0.05);
+          box-shadow: 0 0 14px 1px rgba(0, 0, 0, 0.05);
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.marketing-customer-area .customer-title {
+  margin-bottom: 30px;
+  padding: 30px 40px 0;
+}
+
+.marketing-customer-area .customer-title span {
+  display: block;
+  margin-bottom: 15px;
+  margin-top: 0;
+  line-height: 1;
+  font-weight: 600;
+}
+
+.marketing-customer-area .customer-title h2 {
+  margin-bottom: 15px;
+  font-size: 35px;
+  margin-top: -5px;
+}
+
+.marketing-customer-area .customer-say {
+  padding: 30px;
+}
+
+.marketing-customer-area .customer-say img {
+  width: unset;
+  margin: 0 auto 28px;
+  border-radius: 50%;
+}
+
+.marketing-customer-area .customer-say i {
+  font-size: 30px;
+  color: #1089d4;
+  display: inline-block;
+  margin-bottom: 13px;
+}
+
+.marketing-customer-area .customer-say p {
+  font-style: italic;
+}
+
+.marketing-customer-area .customer-say h3 {
+  margin-bottom: 5px;
+  font-size: 18px;
+  color: #1089d4;
+}
+
+.marketing-customer-area .customer-say-wrap.owl-theme .owl-nav {
+  margin-top: 0 !important;
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+}
+
+.marketing-customer-area .customer-say-wrap.owl-theme .owl-nav [class*=owl-]:hover {
+  background-color: transparent;
+  color: #1089d4;
+}
+
+.marketing-customer-area .customer-say-wrap.owl-theme .owl-nav i {
+  font-size: 20px;
+}
+
+/* Marketing Blog Area Style
+=====================================================*/
+.marketing-blog-area .single-blog-post {
+  margin-bottom: 30px;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0 2px 10px 0px rgba(0, 0, 0, 0.08);
+          box-shadow: 0 2px 10px 0px rgba(0, 0, 0, 0.08);
+  border-radius: 5px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.marketing-blog-area .single-blog-post .post-image {
+  position: relative;
+  overflow: hidden;
+}
+
+.marketing-blog-area .single-blog-post .post-image a {
+  display: block;
+}
+
+.marketing-blog-area .single-blog-post .post-image a img {
+  border-radius: 5px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.marketing-blog-area .single-blog-post .post-content {
+  padding: 25px;
+}
+
+.marketing-blog-area .single-blog-post .post-content .date {
+  color: #1089d4;
+  font-size: 13px;
+  margin-bottom: 8px;
+  margin-top: -4px;
+}
+
+.marketing-blog-area .single-blog-post .post-content .date li {
+  display: inline-block;
+  padding-right: 10px;
+}
+
+.marketing-blog-area .single-blog-post .post-content h3 a {
+  margin-bottom: 5px;
+  line-height: 1.4;
+  color: #333333;
+  font-size: 19px;
+}
+
+.marketing-blog-area .single-blog-post .post-content p {
+  margin-bottom: 0;
+}
+
+.marketing-blog-area .single-blog-post .post-content .read-more {
+  margin-top: 20px;
+}
+
+.marketing-blog-area .single-blog-post:hover {
+  -webkit-transform: translateY(-5px);
+          transform: translateY(-5px);
+}
+
+.marketing-blog-area .single-blog-post:hover h3 a {
+  color: #1089d4;
+}
+
+.marketing-blog-area .single-blog-post:hover .post-image a img {
+  -webkit-transform: scale(1.3) rotate(4deg);
+          transform: scale(1.3) rotate(4deg);
+}
+
+.marketing-blog-area .single-blog-post:hover .read-more {
+  color: #1089d4;
+}
+
+.marketing-blog-area .single-blog-post:hover .read-more::after {
+  width: 15px;
+  right: -20px;
+}
+
+/* Marketing Partner Area Style
+=====================================================*/
+.marketing-partner-area .owl-carousel .owl-item img {
+  width: unset;
+  margin: auto;
+  opacity: 0.5;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.marketing-partner-area .owl-carousel .owl-item img:hover {
+  opacity: 1;
+}
+
+.marketing-partner-area .single-logo {
+  line-height: 1;
+}
+
+/* Marketing Footer Top Area Style
+======================================================*/
+.marketing-footer-top-area {
+  background-color: #022549;
+  position: relative;
+}
+
+.marketing-footer-top-area::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/marketing-agency/shape/5.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+  opacity: 0.1;
+}
+
+.marketing-footer-top-area .subscribe-wrap {
+  padding-bottom: 50px;
+  border-bottom: 1px solid #22405f;
+  margin-bottom: 50px;
+}
+
+.marketing-footer-top-area .subscribe-text h3 {
+  color: #ffffff;
+}
+
+.marketing-footer-top-area .subscribe-text p {
+  color: #ffffff;
+}
+
+.marketing-footer-top-area .newsletter-form {
+  position: relative;
+}
+
+.marketing-footer-top-area .newsletter-form label {
+  color: #e6e6e6;
+}
+
+.marketing-footer-top-area .newsletter-form .input-newsletter {
+  display: block;
+  width: 100%;
+  background-color: #ffffff;
+  border: none;
+  height: 50px;
+  padding-left: 25px;
+  border-radius: 50px;
+  outline: 0;
+  color: #333333;
+}
+
+.marketing-footer-top-area .newsletter-form .input-newsletter::-webkit-input-placeholder {
+  color: #333333;
+}
+
+.marketing-footer-top-area .newsletter-form .input-newsletter:-ms-input-placeholder {
+  color: #333333;
+}
+
+.marketing-footer-top-area .newsletter-form .input-newsletter::-ms-input-placeholder {
+  color: #333333;
+}
+
+.marketing-footer-top-area .newsletter-form .input-newsletter::placeholder {
+  color: #333333;
+}
+
+.marketing-footer-top-area .newsletter-form button {
+  background-color: #1089d4;
+  color: #ffffff;
+  border: none;
+  height: 44px;
+  padding: 0 30px;
+  border-radius: 50px;
+  line-height: 40px;
+  text-transform: capitalize;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  cursor: pointer;
+  --hue: 190;
+  position: absolute;
+  top: 3px;
+  right: 3px;
+}
+
+.marketing-footer-top-area .newsletter-form button:hover {
+  background-color: #1089d4;
+  color: #ffffff;
+  -webkit-box-shadow: 0 0 0 1em transparent;
+          box-shadow: 0 0 0 1em transparent;
+  -webkit-animation: pulse 1s;
+          animation: pulse 1s;
+}
+
+.marketing-footer-top-area .single-widget {
+  margin-bottom: 30px;
+}
+
+.marketing-footer-top-area .single-widget img {
+  margin-bottom: 22px;
+}
+
+.marketing-footer-top-area .single-widget h3 {
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+
+.marketing-footer-top-area .single-widget p {
+  color: #e6e6e6;
+  margin-bottom: 30px;
+}
+
+.marketing-footer-top-area .single-widget ul li {
+  position: relative;
+  padding-left: 15px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  margin-bottom: 8px;
+}
+
+.marketing-footer-top-area .single-widget ul li span {
+  font-size: 15px;
+  display: block;
+  font-weight: normal;
+}
+
+.marketing-footer-top-area .single-widget ul li i {
+  font-size: 25px;
+  position: absolute;
+  top: 2px;
+  left: -9px;
+  color: #ffffff;
+}
+
+.marketing-footer-top-area .single-widget ul li a {
+  color: #e6e6e6;
+  font-size: 15px;
+  display: block;
+}
+
+.marketing-footer-top-area .single-widget ul li:hover {
+  margin-left: 5px;
+}
+
+.marketing-footer-top-area .single-widget ul li:last-child {
+  margin-bottom: 0;
+}
+
+.marketing-footer-top-area .single-widget .address li {
+  color: #e6e6e6;
+  font-weight: 600;
+  padding-left: 35px;
+  font-size: 16px;
+}
+
+.marketing-footer-top-area .single-widget .address li i {
+  left: 0;
+}
+
+.marketing-footer-top-area .single-widget .address li:hover {
+  margin-left: 0;
+}
+
+.marketing-footer-top-area .single-widget .address a {
+  font-weight: normal;
+}
+
+.marketing-footer-top-area .single-widget .footer-icon ul li {
+  display: inline-block;
+  padding-left: 5px;
+}
+
+.marketing-footer-top-area .single-widget .footer-icon ul li a {
+  background-color: #1089d4;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  border-radius: 50%;
+  --hue: 190;
+}
+
+.marketing-footer-top-area .single-widget .footer-icon ul li a i {
+  position: unset;
+  font-size: 15px;
+}
+
+.marketing-footer-top-area .single-widget .footer-icon ul li:hover {
+  margin-left: 0;
+}
+
+.marketing-footer-top-area .single-widget .footer-icon ul li:hover a {
+  -webkit-box-shadow: 0 0 0 1em transparent;
+          box-shadow: 0 0 0 1em transparent;
+  -webkit-animation: pulse 1s;
+          animation: pulse 1s;
+}
+
+/* Marketing Footer Bottom Area Style
+=====================================================*/
+.marketing-footer-bottom-area {
+  background-color: #01082d;
+  padding: 15px 0;
+}
+
+.marketing-footer-bottom-area p {
+  color: #ffffff;
+  margin-top: 4px;
+}
+
+.marketing-footer-bottom-area .conditions {
+  float: right;
+}
+
+.marketing-footer-bottom-area .conditions li {
+  display: inline-block;
+  padding-left: 20px;
+  position: relative;
+}
+
+.marketing-footer-bottom-area .conditions li::before {
+  content: "";
+  position: absolute;
+  top: 6px;
+  right: -14px;
+  width: 1px;
+  height: 15px;
+  background-color: #ffffff;
+}
+
+.marketing-footer-bottom-area .conditions li a {
+  color: #ffffff;
+}
+
+.marketing-footer-bottom-area .conditions li:last-child::before {
+  display: none;
+}
+/*# sourceMappingURL=marketing-style.css.map */

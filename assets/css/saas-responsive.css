@@ -1,0 +1,217 @@
+@media only screen and (max-width: 767px) {
+  .saas-nav-style .other-option {
+    display: none;
+  }
+  .saas-banner-area {
+    padding-top: 100px;
+  }
+  .saas-banner-area .banner-text h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  .saas-banner-area .banner-text p {
+    margin-bottom: 30px;
+  }
+  .saas-banner-area .banner-text .default-btn {
+    padding: 12px 20px;
+    margin: 0 !important;
+  }
+  .saas-banner-area .banner-text .default-btn.btn-two {
+    margin-left: 8px !important;
+  }
+  .saas-partner-area .partner-border {
+    padding-bottom: 50px;
+  }
+  .saas-features-area .features-text h2 {
+    font-size: 25px;
+  }
+  .saas-features-area .features-img {
+    margin-top: 30px;
+  }
+  .saas-get-started-area .get-started-text h2 {
+    font-size: 25px;
+  }
+  .saas-get-started-area .get-started-img {
+    margin-bottom: 30px;
+  }
+  .saas-sign-up-done-area .sign-up-done-text h2 {
+    font-size: 25px;
+  }
+  .saas-sign-up-done-area .default-btn {
+    margin-bottom: -7px;
+  }
+  .saas-great-product-area .great-product-text h2 {
+    font-size: 25px;
+  }
+  .saas-great-product-area .great-product-img {
+    margin-top: 30px;
+  }
+  .saas-questions-area .choose-img {
+    margin-bottom: 30px;
+  }
+  .saas-footer-top-area .single-widget h3 {
+    position: relative;
+  }
+  .saas-footer-top-area .single-widget h3::before {
+    content: "";
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #4b5c92;
+  }
+  .saas-footer-top-area .single-widget h3::after {
+    content: "";
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 50px;
+    height: 1px;
+    background-color: #ffffff;
+  }
+  .saas-footer-top-area .newsletter-form button {
+    position: unset;
+    margin: 20px auto 0;
+    display: table;
+  }
+  .saas-footer-top-area .subscribe-text {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .saas-footer-bottom-area {
+    text-align: center;
+  }
+  .saas-footer-bottom-area .conditions {
+    float: unset;
+  }
+  .saas-footer-bottom-area .conditions li:first-child {
+    padding-left: 0;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .saas-nav-style .other-option {
+    display: none;
+  }
+  .saas-banner-area {
+    padding-top: 120px;
+  }
+  .saas-banner-area .banner-text h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  .saas-banner-area .banner-text p {
+    margin-bottom: 30px;
+  }
+  .saas-banner-area .banner-text .default-btn {
+    padding: 12px 20px;
+    margin: 0 !important;
+  }
+  .saas-banner-area .banner-text .default-btn.btn-two {
+    margin-left: 8px !important;
+  }
+  .saas-partner-area .partner-border {
+    padding-bottom: 70px;
+  }
+  .saas-features-area .features-text h2 {
+    font-size: 25px;
+  }
+  .saas-features-area .features-img {
+    margin-top: 30px;
+  }
+  .saas-features-area .features-img img {
+    width: 100%;
+  }
+  .saas-get-started-area .get-started-text h2 {
+    font-size: 25px;
+  }
+  .saas-get-started-area .get-started-img {
+    margin-bottom: 30px;
+  }
+  .saas-sign-up-done-area .sign-up-done-text h2 {
+    font-size: 25px;
+  }
+  .saas-sign-up-done-area .default-btn {
+    margin-bottom: -7px;
+  }
+  .saas-great-product-area .great-product-text h2 {
+    font-size: 25px;
+  }
+  .saas-great-product-area .great-product-img {
+    margin-top: 30px;
+  }
+  .saas-questions-area .choose-img {
+    margin-bottom: 30px;
+  }
+  .saas-questions-area .choose-img img {
+    width: 100%;
+  }
+  .saas-footer-top-area .single-widget h3 {
+    position: relative;
+  }
+  .saas-footer-top-area .single-widget h3::before {
+    content: "";
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #4b5c92;
+  }
+  .saas-footer-top-area .single-widget h3::after {
+    content: "";
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 50px;
+    height: 1px;
+    background-color: #ffffff;
+  }
+  .saas-footer-top-area .newsletter-form button {
+    position: unset;
+    margin: 20px auto 0;
+    display: table;
+  }
+  .saas-footer-top-area .subscribe-text {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .saas-footer-bottom-area {
+    text-align: center;
+  }
+  .saas-footer-bottom-area .conditions {
+    float: unset;
+  }
+  .saas-footer-bottom-area .conditions li:first-child {
+    padding-left: 0;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .saas-nav-style .other-option {
+    margin-left: 75px;
+  }
+  .saas-banner-area {
+    padding-top: 150px;
+  }
+  .saas-banner-area .banner-text h1 {
+    font-size: 40px;
+  }
+  .saas-features-area .features-text h2 {
+    font-size: 30px;
+  }
+  .saas-features-area .single-features {
+    padding: 10px;
+  }
+  .saas-features-area .single-features h3 {
+    font-size: 15px;
+  }
+  .saas-get-started-area .get-started-text h2 {
+    font-size: 30px;
+  }
+  .saas-great-product-area .great-product-text h2 {
+    font-size: 30px;
+  }
+}
+/*# sourceMappingURL=saas-responsive.css.map */

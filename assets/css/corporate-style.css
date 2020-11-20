@@ -1,0 +1,1054 @@
+
+.corporate-nav-style .main-nav {
+  background-color: transparent;
+  position: unset;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.corporate-nav-style .main-nav nav .navbar-nav .nav-item a {
+  font-weight: 600;
+  font-size: 14px;
+  text-transform: capitalize;
+  position: relative;
+  overflow: hidden;
+}
+
+.corporate-nav-style .main-nav nav .navbar-nav .nav-item a.active {
+  color: #ffffff;
+}
+
+.corporate-nav-style .main-nav nav .navbar-nav .nav-item a.active::before {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.corporate-nav-style .main-nav nav .navbar-nav .nav-item a::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #ffffff;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.corporate-nav-style .main-nav nav .navbar-nav .nav-item a:hover {
+  color: #ffffff;
+}
+
+.corporate-nav-style .main-nav nav .navbar-nav .nav-item a:hover::before {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.corporate-nav-style .main-nav nav .navbar-nav .nav-item:hover a {
+  color: #ffffff;
+}
+
+.corporate-nav-style .main-nav nav .navbar-nav .nav-item:hover a::before {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.corporate-nav-style .main-nav nav .navbar-nav .nav-item .dropdown-menu {
+  background-color: #ffffff;
+  padding-left: 25px;
+  padding-right: 25px;
+  border: none;
+}
+
+.corporate-nav-style .main-nav nav .navbar-nav .nav-item .dropdown-menu li a {
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: capitalize;
+  padding: 5px 0;
+  color: #333333;
+  position: relative;
+  overflow: hidden;
+}
+
+.corporate-nav-style .main-nav nav .navbar-nav .nav-item .dropdown-menu li a.active {
+  color: #1089d4;
+  padding-left: 15px;
+}
+
+.corporate-nav-style .main-nav nav .navbar-nav .nav-item .dropdown-menu li a.active::before {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.corporate-nav-style .main-nav nav .navbar-nav .nav-item .dropdown-menu li a:hover {
+  color: #1089d4;
+  padding-left: 15px;
+}
+
+.corporate-nav-style .main-nav nav .navbar-nav .nav-item .dropdown-menu li a:hover::before {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.corporate-nav-style .main-nav nav .navbar-nav .nav-item .dropdown-menu li a::before {
+  bottom: 15px;
+  width: 10px;
+  height: 2px;
+  background-color: #1089d4;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+}
+
+.corporate-nav-style .other-option {
+  margin-left: 140px;
+}
+
+.corporate-nav-style .other-option .top-social-icon ul {
+  line-height: 1;
+}
+
+.corporate-nav-style .other-option .top-social-icon ul li {
+  display: inline-block;
+  padding-left: 5px;
+}
+
+.corporate-nav-style .other-option .top-social-icon ul li a {
+  color: #1089d4;
+}
+
+.corporate-nav-style .other-option .top-social-icon ul li a i {
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  background-color: #ffffff;
+  text-align: center;
+  font-size: 15px;
+  border-radius: 50%;
+  --hue: 190;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.corporate-nav-style .other-option .top-social-icon ul li a i:hover {
+  -webkit-box-shadow: 0 0 0 15px transparent;
+          box-shadow: 0 0 0 15px transparent;
+  -webkit-animation: pulse 1s;
+          animation: pulse 1s;
+  background-color: #1089d4;
+  color: #ffffff;
+}
+
+.corporate-nav-style#header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: block;
+  -webkit-transition: top 0.3s;
+  transition: top 0.3s;
+  z-index: 999;
+}
+
+.corporate-nav-style .navbar-area {
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.corporate-nav-style .navbar-area.is-sticky {
+  -webkit-box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.06);
+          box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.06);
+  background-color: #1089d4 !important;
+  z-index: 9999;
+}
+
+/* Corporate Banner Area Style
+=====================================================*/
+.corporate-banner-area {
+  background-image: url(../img/corporate-business/banner-img.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+}
+
+.corporate-banner-area::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #1089d4;
+  opacity: 0.5;
+}
+
+.corporate-banner-area .banner-text {
+  /* max-width: 650px; */
+  margin-top: 60px;
+  position: relative;
+  z-index: 1;
+}
+
+.corporate-banner-area .banner-text h1 {
+  font-size: 45px;
+  color: #ffffff;
+  margin-bottom: 30px;
+  text-transform:uppercase;
+}
+
+.corporate-banner-area .banner-text p {
+  color: #ffffff;
+  max-width: 500px;
+  margin-bottom: 30px;
+}
+
+.corporate-banner-area .banner-text .default-btn {
+  background-color: #ffffff;
+  color: #1089d4;
+}
+
+/* Corporate Single Box Area Style
+=====================================================*/
+.corporate-box-area {
+  overflow: hidden;
+}
+
+.corporate-box-area .single-box {
+  text-align: center;
+  -webkit-box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
+          box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
+  background-color: #ffffff;
+  padding: 25px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.corporate-box-area .single-box::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1px;
+  height: 0;
+  background-color: #1089d4;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.corporate-box-area .single-box::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background-color: #1089d4;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.corporate-box-area .single-box i {
+  font-size: 35px;
+  color: #ffffff;
+  margin-bottom: 15px;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  background-color: #1089d4;
+  border-radius: 50%;
+  --hue: 190;
+}
+
+.corporate-box-area .single-box h3 {
+  margin-bottom: 12px;
+}
+
+.corporate-box-area .single-box p {
+  margin-bottom: -6px;
+}
+
+.corporate-box-area .single-box:hover {
+  -webkit-transform: translateY(-5px);
+          transform: translateY(-5px);
+}
+
+.corporate-box-area .single-box:hover::before {
+  height: 100%;
+}
+
+.corporate-box-area .single-box:hover::after {
+  width: 100%;
+}
+
+.corporate-box-area .single-box:hover i {
+  -webkit-box-shadow: 0 0 0 15px transparent;
+          box-shadow: 0 0 0 15px transparent;
+  -webkit-animation: pulse 1s;
+          animation: pulse 1s;
+}
+
+.corporate-box-area .box-right-img {
+  text-align: center;
+}
+
+.corporate-box-area .box-right-img img {
+  width: 100%;
+}
+
+.corporate-box-area .col-lg-6:nth-child(2) .single-box {
+  margin-top: 30px;
+}
+
+.corporate-box-area .col-lg-6:nth-child(3) .single-box {
+  margin-top: -30px;
+}
+
+/* Corporate Business Solutions Area Style
+=====================================================*/
+.corporate-business-solutions-area .business-solutions-text {
+  margin-left: 30px;
+}
+
+..corporate-business-solutions-area .business-solutions-text h2 {
+  font-size: 35px;
+  margin-bottom: 30px;
+  
+}
+
+.corporate-business-solutions-area .business-solutions-text h2 span {
+  color: #1089d4;
+}
+
+.corporate-business-solutions-area .business-solutions-text ul {
+  margin-bottom: 30px;
+}
+
+.corporate-business-solutions-area .business-solutions-text ul li {
+  font-size: 15px;
+  font-weight: 600;
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 8px;
+}
+
+.corporate-business-solutions-area .business-solutions-text ul li i {
+  font-size: 16px;
+  position: absolute;
+  top: 3px;
+  left: 0;
+  background-color: #1089d4;
+  color: #ffffff;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  text-align: center;
+  line-height: 20px;
+  --hue: 190;
+}
+
+.corporate-business-solutions-area .business-solutions-text ul li:last-child {
+  margin-bottom: 0;
+}
+
+.corporate-business-solutions-area .business-solutions-text ul li:hover i {
+  -webkit-box-shadow: 0 0 0 15px transparent;
+          box-shadow: 0 0 0 15px transparent;
+  -webkit-animation: pulse 1s;
+          animation: pulse 1s;
+}
+
+.corporate-business-solutions-area .solutions-img {
+  text-align: center;
+}
+
+.corporate-business-solutions-area .solutions-img img {
+  width: 100%;
+}
+
+/* Corporate Service Area Style
+=====================================================*/
+.corporate-service-area {
+  background-color: #f1f5f9;
+  overflow: hidden;
+}
+
+.corporate-service-area .single-service {
+  position: relative;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  z-index: 1;
+  margin-bottom: 30px;
+}
+
+.corporate-service-area .single-service i {
+  font-size: 40px;
+  margin-bottom: 17px;
+  color: #1089d4;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  position: relative;
+}
+
+.corporate-service-area .single-service i::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 18px;
+  width: 100%;
+  height: 100%;
+  background-color: #1089d4;
+  z-index: -1;
+  opacity: 0.2;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.corporate-service-area .single-service h3 {
+  margin-bottom: 10px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.corporate-service-area .single-service:hover {
+  -webkit-transform: translateY(-5px);
+          transform: translateY(-5px);
+}
+
+.corporate-service-area .single-service:hover h3 {
+  color: #1089d4;
+}
+
+.corporate-service-area .single-service:hover i {
+  -webkit-transform: rotateY(360deg);
+          transform: rotateY(360deg);
+}
+
+.corporate-service-area .single-service:hover i::after {
+  left: 0;
+}
+
+.corporate-service-area .service-wrap {
+  max-width: 760px;
+  margin-left: auto;
+}
+
+/* Corporate Choose Us Area Style
+=====================================================*/
+.corporate-why-choose-us-area .choose-text h2 {
+  font-size: 30px;
+  margin-bottom: 18px;
+}
+
+.corporate-why-choose-us-area .choose-text ul {
+  margin-bottom: 30px;
+}
+
+.corporate-why-choose-us-area .choose-text ul li {
+  font-size: 15px;
+  font-weight: 600;
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 8px;
+  color: #151515;
+}
+
+.corporate-why-choose-us-area .choose-text ul li i {
+  font-size: 16px;
+  position: absolute;
+  top: 3px;
+  left: 0;
+  background-color: #1089d4;
+  color: #ffffff;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  text-align: center;
+  line-height: 20px;
+  --hue: 190;
+}
+
+.corporate-why-choose-us-area .choose-text ul li::last-child {
+  margin-bottom: 0;
+}
+
+.corporate-why-choose-us-area .choose-text ul li:hover i {
+  -webkit-box-shadow: 0 0 0 15px transparent;
+          box-shadow: 0 0 0 15px transparent;
+  -webkit-animation: pulse 1s;
+          animation: pulse 1s;
+}
+
+.corporate-why-choose-us-area .choose-img {
+  text-align: center;
+  position: relative;
+}
+
+.corporate-why-choose-us-area .choose-img img {
+  width: 100%;
+}
+.corporate-why-choose-us-area .mule .choose-img .mule img {
+  width: 70% !important;
+}
+
+.corporate-why-choose-us-area .choose-img .shape-1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 90%;
+  height: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+}
+
+
+/* Corporate Counter Area Style
+/* Corporate Choose Us Area Style
+=====================================================*/
+.mule .choose-text h2 {
+  font-size: 30px;
+  margin-bottom: 18px;
+}
+
+.mule .choose-text ul {
+  margin-bottom: 30px;
+}
+
+.mule .choose-text ul li {
+  font-size: 15px;
+  font-weight: 600;
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 8px;
+  color: #151515;
+}
+
+.mule .choose-text ul li i {
+  font-size: 16px;
+  position: absolute;
+  top: 3px;
+  left: 0;
+  background-color: #1089d4;
+  color: #ffffff;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  text-align: center;
+  line-height: 20px;
+  --hue: 190;
+}
+
+.mule .choose-text ul li::last-child {
+  margin-bottom: 0;
+}
+
+.mule .choose-text ul li:hover i {
+  -webkit-box-shadow: 0 0 0 15px transparent;
+          box-shadow: 0 0 0 15px transparent;
+  -webkit-animation: pulse 1s;
+          animation: pulse 1s;
+}
+
+.mule .choose-img {
+  text-align: center;
+  position: relative;
+}
+
+
+.mule .choose-img .mule img {
+  width: 70% !important;
+}
+
+.mule .choose-img .shape-1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 90%;
+  height: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+}
+
+
+/* Corporate Counter Area Style
+=====================================================*/
+.corporate-counter-area {
+  background-image: url(../img/corporate-business/shape/1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.corporate-counter-area::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  opacity: 0.9;
+  z-index: -1;
+}
+
+.corporate-counter-area .section-title {
+  max-width: 700px;
+}
+
+.corporate-counter-area .section-title h2 {
+  margin-bottom: 0;
+}
+
+.corporate-counter-area .single-counter {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.corporate-counter-area .single-counter h2 {
+  color: #1089d4;
+  font-size: 50px;
+}
+
+.corporate-counter-area .single-counter p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.corporate-counter-area .single-counter.single-counter-mt {
+  margin-top: 30px;
+}
+
+.corporate-counter-area .counter-border-lr {
+  position: relative;
+}
+
+.corporate-counter-area .counter-border-lr::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1px;
+  height: 100%;
+  background-color: #1089d4;
+  right: 0;
+  margin: auto;
+}
+
+.corporate-counter-area .counter-border-lr::after {
+  content: "";
+  position: absolute;
+  top: 47%;
+  left: 0;
+  width: 80%;
+  height: 1px;
+  background-color: #1089d4;
+  right: 0;
+  margin: auto;
+}
+
+/* Corporate Team Area Style
+=====================================================*/
+.corporate-team-area {
+  background-color: #f1f5f9;
+}
+
+.corporate-team-area .team-title h2 {
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+
+.corporate-team-area .team-title span {
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 8px;
+  display: block;
+}
+
+.corporate-team-area .team-title p {
+  margin-bottom: 30px;
+}
+
+/* Corporate Customer Area Style
+=====================================================*/
+.corporate-customer-area .owl-carousel .owl-item img {
+  width: unset;
+  border-radius: 50%;
+  margin: 0 auto 17px;
+}
+
+.corporate-customer-area .section-title {
+  margin: 0 auto 40px;
+}
+
+.corporate-customer-area .customer-text {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.corporate-customer-area .customer-text h2 {
+  font-size: 35px;
+  margin-bottom: 15px;
+}
+
+.corporate-customer-area .customer-say {
+  padding: 30px;
+  -webkit-box-shadow: 0 0 14px 1px rgba(0, 0, 0, 0.05);
+          box-shadow: 0 0 14px 1px rgba(0, 0, 0, 0.05);
+  background-color: #ffffff;
+  margin-top: 30px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.corporate-customer-area .customer-say h3 {
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+.corporate-customer-area .customer-say p i {
+  color: #1089d4;
+}
+
+.corporate-customer-area .customer-say-wrap.owl-theme .owl-nav {
+  margin-top: 0 !important;
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+}
+
+.corporate-customer-area .customer-say-wrap.owl-theme .owl-nav [class*=owl-]:hover {
+  background-color: transparent;
+  color: #1089d4;
+}
+
+.corporate-customer-area .customer-say-wrap.owl-theme .owl-nav i {
+  font-size: 20px;
+}
+
+/* Corporate Blog Area Style
+======================================================*/
+.corporate-blog-area {
+  margin-top: -15px;
+}
+
+.corporate-blog-area .single-blog-post {
+  margin-bottom: 30px;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0 2px 10px 0px rgba(0, 0, 0, 0.08);
+          box-shadow: 0 2px 10px 0px rgba(0, 0, 0, 0.08);
+  border-radius: 5px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.corporate-blog-area .single-blog-post .post-image {
+  position: relative;
+  overflow: hidden;
+}
+
+.corporate-blog-area .single-blog-post .post-image a {
+  display: block;
+}
+
+.corporate-blog-area .single-blog-post .post-image a img {
+  border-radius: 5px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.corporate-blog-area .single-blog-post .post-content {
+  padding: 25px;
+}
+
+.corporate-blog-area .single-blog-post .post-content .date {
+  color: #1089d4;
+  font-size: 12px;
+  margin-bottom: 8px;
+  margin-top: -4px;
+}
+
+.corporate-blog-area .single-blog-post .post-content .date i {
+  font-size: 12px;
+}
+
+.corporate-blog-area .single-blog-post .post-content h3 a {
+  margin-bottom: 5px;
+  line-height: 1.4;
+  color: #333333;
+}
+
+.corporate-blog-area .single-blog-post .post-content p {
+  margin-bottom: 0;
+}
+
+.corporate-blog-area .single-blog-post .post-content .read-more {
+  margin-top: 20px;
+}
+
+.corporate-blog-area .single-blog-post:hover {
+  -webkit-transform: translateY(-5px);
+          transform: translateY(-5px);
+}
+
+.corporate-blog-area .single-blog-post:hover h3 a {
+  color: #1089d4;
+}
+
+.corporate-blog-area .single-blog-post:hover .post-image a img {
+  -webkit-transform: scale(1.3) rotate(4deg);
+          transform: scale(1.3) rotate(4deg);
+}
+
+.corporate-blog-area .single-blog-post:hover .read-more {
+  color: #1089d4;
+}
+
+.corporate-blog-area .single-blog-post:hover .read-more::after {
+  width: 15px;
+  right: -20px;
+}
+
+/* Corporate Footer Top Area Style
+======================================================*/
+.corporate-footer-top-area {
+  background-color: #223e9b;
+}
+
+.corporate-footer-top-area .single-widget {
+  margin-bottom: 30px;
+}
+
+.corporate-footer-top-area .single-widget img {
+  margin-bottom: 27px;
+}
+
+.corporate-footer-top-area .single-widget h3 {
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+
+.corporate-footer-top-area .single-widget p {
+  color: #e6e6e6;
+  margin-bottom: 27px;
+}
+
+.corporate-footer-top-area .single-widget .footer-icon ul li {
+  display: inline-block;
+  padding-left: 5px;
+}
+
+.corporate-footer-top-area .single-widget .footer-icon ul li a {
+  background-color: #1089d4;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  border-radius: 50%;
+  --hue: 190;
+}
+
+.corporate-footer-top-area .single-widget .footer-icon ul li a i {
+  position: unset;
+  font-size: 15px;
+}
+
+.corporate-footer-top-area .single-widget .footer-icon ul li:hover {
+  margin-left: 0;
+}
+
+.corporate-footer-top-area .single-widget .footer-icon ul li:hover a {
+  -webkit-box-shadow: 0 0 0 1em transparent;
+          box-shadow: 0 0 0 1em transparent;
+  -webkit-animation: pulse 1s;
+          animation: pulse 1s;
+}
+
+.corporate-footer-top-area .single-widget ul li {
+  position: relative;
+  padding-left: 15px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  margin-bottom: 8px;
+}
+
+.corporate-footer-top-area .single-widget ul li i {
+  font-size: 25px;
+  position: absolute;
+  top: 2px;
+  left: -9px;
+  color: #ffffff;
+}
+
+.corporate-footer-top-area .single-widget ul li a {
+  color: #e6e6e6;
+  font-size: 15px;
+  display: block;
+}
+
+.corporate-footer-top-area .single-widget ul li:hover {
+  margin-left: 5px;
+}
+
+.corporate-footer-top-area .single-widget ul li:last-child {
+  margin-bottom: 0;
+}
+
+.corporate-footer-top-area .single-widget .address li {
+  color: #e6e6e6;
+  font-weight: 600;
+  padding-left: 35px;
+  font-size: 16px;
+}
+
+.corporate-footer-top-area .single-widget .address li span {
+  font-size: 15px;
+  display: block;
+  font-weight: normal;
+}
+
+.corporate-footer-top-area .single-widget .address li i {
+  left: 0;
+}
+
+.corporate-footer-top-area .single-widget .address li:hover {
+  margin-left: 0;
+}
+
+.corporate-footer-top-area .single-widget .address a {
+  font-weight: normal;
+}
+
+.corporate-footer-top-area .single-widget .newsletter-form label {
+  color: #e6e6e6;
+}
+
+.corporate-footer-top-area .single-widget .newsletter-form .input-newsletter {
+  display: block;
+  width: 100%;
+  background-color: #1e2e6d;
+  border: none;
+  height: 40px;
+  padding-left: 25px;
+  border-radius: 50px;
+  outline: 0;
+  color: #ffffff;
+}
+
+.corporate-footer-top-area .single-widget .newsletter-form .input-newsletter::-webkit-input-placeholder {
+  color: #e6e6e6;
+}
+
+.corporate-footer-top-area .single-widget .newsletter-form .input-newsletter:-ms-input-placeholder {
+  color: #e6e6e6;
+}
+
+.corporate-footer-top-area .single-widget .newsletter-form .input-newsletter::-ms-input-placeholder {
+  color: #e6e6e6;
+}
+
+.corporate-footer-top-area .single-widget .newsletter-form .input-newsletter::placeholder {
+  color: #e6e6e6;
+}
+
+.corporate-footer-top-area .single-widget .newsletter-form button {
+  background-color: #1089d4;
+  color: #ffffff;
+  border: none;
+  height: 40px;
+  padding: 0 30px;
+  border-radius: 50px;
+  line-height: 40px;
+  text-transform: capitalize;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 10px;
+  --hue: 190;
+}
+
+.corporate-footer-top-area .single-widget .newsletter-form button:hover {
+  background-color: #1089d4;
+  color: #ffffff;
+  -webkit-box-shadow: 0 0 0 1em transparent;
+          box-shadow: 0 0 0 1em transparent;
+  -webkit-animation: pulse 1s;
+          animation: pulse 1s;
+}
+
+/* Corporate Footer Bottom Area Style
+=====================================================*/
+.corporate-footer-bottom-area {
+  background-color: #262e55;
+  padding: 15px 0;
+}
+
+.corporate-footer-bottom-area p {
+  color: #ffffff;
+  margin-top: 4px;
+}
+
+.corporate-footer-bottom-area .conditions {
+  float: right;
+}
+
+.corporate-footer-bottom-area .conditions li {
+  display: inline-block;
+  padding-left: 20px;
+  position: relative;
+}
+
+.corporate-footer-bottom-area .conditions li::before {
+  content: "";
+  position: absolute;
+  top: 6px;
+  right: -14px;
+  width: 1px;
+  height: 15px;
+  background-color: #ffffff;
+}
+
+.corporate-footer-bottom-area .conditions li a {
+  color: #ffffff;
+}
+
+.corporate-footer-bottom-area .conditions li:last-child::before {
+  display: none;
+}
+
+/*===== END CORPORATE PAGE STYLE ======*/
+/*# sourceMappingURL=corporate-style.css.map */
